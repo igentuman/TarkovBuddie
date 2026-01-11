@@ -5,6 +5,7 @@ public class MainWindowViewModel : ViewModelBase
     private string _mapOverlayHotKeyDisplay = "[Not Bound]";
 
     public MapViewModel MapViewModel { get; }
+    public QuestTrackerViewModel QuestTrackerViewModel { get; }
     public ItemsTrackerViewModel ItemsTrackerViewModel { get; }
     
     public string MapOverlayHotKeyDisplay
@@ -16,6 +17,7 @@ public class MainWindowViewModel : ViewModelBase
     public MainWindowViewModel()
     {
         MapViewModel = new MapViewModel();
+        QuestTrackerViewModel = new QuestTrackerViewModel();
         ItemsTrackerViewModel = new ItemsTrackerViewModel();
     }
 

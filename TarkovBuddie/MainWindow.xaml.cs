@@ -12,6 +12,7 @@ public partial class MainWindow : Window
     private HotKeyManager? _hotKeyManager;
     private MainWindowViewModel? _viewModel;
     private MapOverlayWindow? _mapOverlayWindow;
+    private ItemsOverlayWindow? _itemsOverlayWindow;
 
     public MainWindow()
     {
@@ -41,9 +42,14 @@ public partial class MainWindow : Window
         if (_hotKeyManager != null)
         {
             _hotKeyManager.UnregisterHotKey("Toggle Map Overlay");
+            _hotKeyManager.UnregisterHotKey("Toggle Pinned Items");
             if (settings.HotKeys.TryGetValue("Toggle Map Overlay", out var binding))
             {
                 _hotKeyManager.RegisterHotKey("Toggle Map Overlay", binding);
+            }
+            if (settings.HotKeys.TryGetValue("Toggle Pinned Items", out var itemsBinding))
+            {
+                _hotKeyManager.RegisterHotKey("Toggle Pinned Items", itemsBinding);
             }
         }
         UpdateMapOverlayHotKeyDisplay(settings);
@@ -99,6 +105,10 @@ public partial class MainWindow : Window
         {
             ToggleMapOverlay();
         }
+        else if (actionName == "Toggle Pinned Items")
+        {
+            ToggleItemsOverlay();
+        }
     }
 
     private void ToggleMapOverlay()
@@ -125,9 +135,31 @@ public partial class MainWindow : Window
         }
     }
 
+    private void ToggleItemsOverlay()
+    {
+        if (_itemsOverlayWindow == null || !_itemsOverlayWindow.IsVisible)
+        {
+            if (_itemsOverlayWindow != null)
+            {
+                _itemsOverlayWindow.Close();
+            }
+
+            if (_viewModel?.ItemsTrackerViewModel != null)
+            {
+                _itemsOverlayWindow = new ItemsOverlayWindow(_viewModel.ItemsTrackerViewModel);
+                _itemsOverlayWindow.Show();
+            }
+        }
+        else
+        {
+            _itemsOverlayWindow.Close();
+        }
+    }
+
     protected override void OnClosed(EventArgs e)
     {
         _mapOverlayWindow?.Close();
+        _itemsOverlayWindow?.Close();
         _hotKeyManager?.UnregisterAllHotKeys();
         SettingsService.Instance.SettingsChanged -= OnSettingsChanged;
         base.OnClosed(e);

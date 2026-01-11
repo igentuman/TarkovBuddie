@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TarkovBuddie"
         xmlns:views="clr-namespace:TarkovBuddie.Views"
         mc:Ignorable="d"
-        Title="TarkovBuddie" Height="500" Width="900">
+        Title="TarkovBuddie" Height="800" Width="1440">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -36,7 +36,7 @@
                 <views:MapView/>
             </TabItem>
             <TabItem Header="Quest Tracker">
-                <views:QuestTrackerView/>
+                <views:QuestTrackerView DataContext="{Binding QuestTrackerViewModel}"/>
             </TabItem>
             <TabItem Header="Items Tracker">
                 <views:ItemsTrackerView DataContext="{Binding ItemsTrackerViewModel}"/>
