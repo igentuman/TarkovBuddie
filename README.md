@@ -7,13 +7,13 @@ It provides map overlays, quest tracking, and item tracking through transparent 
 
 > ⚠️ Tarkov Buddie does **not** interact with game memory or network traffic. It works purely as an external helper tool.
 
-![settings](https://raw.githubusercontent.com/TarkovBuddie/master/screenshots/settings.png)
+![settings](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/settings.png?raw=true)
 
-![items](https://raw.githubusercontent.com/TarkovBuddie/master/screenshots/items.png)
+![items](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/items.png?raw=true)
 
-![quests](https://raw.githubusercontent.com/TarkovBuddie/master/screenshots/quests.png)
+![quests](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/quests.png?raw=true)
 
-![overlay](https://raw.githubusercontent.com/TarkovBuddie/master/screenshots/overlay.png)
+![overlay](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/overlay.png?raw=true)
 
 ---
 
