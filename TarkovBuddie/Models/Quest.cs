@@ -8,4 +8,5 @@ public class Quest
     public bool Kappa { get; set; }
     public bool IsCompleted { get; set; }
     public bool IsPinned { get; set; }
+    public string Map { get; set; } = string.Empty;
 }

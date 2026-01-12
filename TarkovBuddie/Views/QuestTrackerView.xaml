@@ -6,6 +6,9 @@
              xmlns:local="clr-namespace:TarkovBuddie.Views"
              mc:Ignorable="d"
              d:DesignHeight="600" d:DesignWidth="900">
+    <UserControl.Resources>
+        <local:BoolToColorConverter x:Key="PinBackgroundConverter"/>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -62,13 +65,18 @@
                                            Binding="{Binding Kappa, Mode=OneWay}" 
                                            Width="60"
                                            IsReadOnly="True" MinWidth="40"/>
+                    <DataGridTextColumn Header="Map" 
+                                       Binding="{Binding Map, Mode=OneWay}" 
+                                       Width="90"
+                                       IsReadOnly="True" MinWidth="90"/>
                     <DataGridTemplateColumn Header="Pin" Width="50" MinWidth="40">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Button Content="📌" 
                                         Command="{Binding DataContext.TogglePinCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                         CommandParameter="{Binding}"
-                                        Padding="5,2"/>
+                                        Padding="5,2"
+                                        Background="{Binding IsPinned, Converter={StaticResource PinBackgroundConverter}}"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>

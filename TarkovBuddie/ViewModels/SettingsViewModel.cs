@@ -78,8 +78,6 @@ public class SettingsViewModel : ViewModelBase
         HotKeyDisplays = new ObservableCollection<HotKeyDisplay>
         {
             new() { Action = "Toggle Map Overlay", KeyString = "" },
-            new() { Action = "Toggle Quest Tracker", KeyString = "" },
-            new() { Action = "Toggle Items Tracker", KeyString = "" },
             new() { Action = "Toggle Pinned Quests", KeyString = "" },
             new() { Action = "Toggle Pinned Items", KeyString = "" }
         };

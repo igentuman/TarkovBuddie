@@ -13,6 +13,7 @@ public partial class MainWindow : Window
     private MainWindowViewModel? _viewModel;
     private MapOverlayWindow? _mapOverlayWindow;
     private ItemsOverlayWindow? _itemsOverlayWindow;
+    private QuestsOverlayWindow? _questsOverlayWindow;
 
     public MainWindow()
     {
@@ -43,6 +44,7 @@ public partial class MainWindow : Window
         {
             _hotKeyManager.UnregisterHotKey("Toggle Map Overlay");
             _hotKeyManager.UnregisterHotKey("Toggle Pinned Items");
+            _hotKeyManager.UnregisterHotKey("Toggle Pinned Quests");
             if (settings.HotKeys.TryGetValue("Toggle Map Overlay", out var binding))
             {
                 _hotKeyManager.RegisterHotKey("Toggle Map Overlay", binding);
@@ -50,6 +52,10 @@ public partial class MainWindow : Window
             if (settings.HotKeys.TryGetValue("Toggle Pinned Items", out var itemsBinding))
             {
                 _hotKeyManager.RegisterHotKey("Toggle Pinned Items", itemsBinding);
+            }
+            if (settings.HotKeys.TryGetValue("Toggle Pinned Quests", out var questsBinding))
+            {
+                _hotKeyManager.RegisterHotKey("Toggle Pinned Quests", questsBinding);
             }
         }
         UpdateMapOverlayHotKeyDisplay(settings);
@@ -109,6 +115,10 @@ public partial class MainWindow : Window
         {
             ToggleItemsOverlay();
         }
+        else if (actionName == "Toggle Pinned Quests")
+        {
+            ToggleQuestsOverlay();
+        }
     }
 
     private void ToggleMapOverlay()
@@ -154,12 +164,40 @@ public partial class MainWindow : Window
         {
             _itemsOverlayWindow.Close();
         }
+
+        if (_questsOverlayWindow != null && _questsOverlayWindow.IsVisible)
+        {
+            _questsOverlayWindow.RefreshPositionForItemsOverlay(_itemsOverlayWindow);
+        }
+    }
+
+    private void ToggleQuestsOverlay()
+    {
+        if (_questsOverlayWindow == null || !_questsOverlayWindow.IsVisible)
+        {
+            if (_questsOverlayWindow != null)
+            {
+                _questsOverlayWindow.Close();
+            }
+
+            if (_viewModel?.QuestTrackerViewModel != null)
+            {
+                _questsOverlayWindow = new QuestsOverlayWindow(_viewModel.QuestTrackerViewModel, _itemsOverlayWindow, _viewModel.MapViewModel);
+                _questsOverlayWindow.Show();
+                _questsOverlayWindow.RefreshPositionForItemsOverlay(_itemsOverlayWindow);
+            }
+        }
+        else
+        {
+            _questsOverlayWindow.Close();
+        }
     }
 
     protected override void OnClosed(EventArgs e)
     {
         _mapOverlayWindow?.Close();
         _itemsOverlayWindow?.Close();
+        _questsOverlayWindow?.Close();
         _hotKeyManager?.UnregisterAllHotKeys();
         SettingsService.Instance.SettingsChanged -= OnSettingsChanged;
         base.OnClosed(e);

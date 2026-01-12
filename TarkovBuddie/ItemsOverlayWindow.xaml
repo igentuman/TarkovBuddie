@@ -29,8 +29,8 @@
                                 </Grid.RowDefinitions>
                                 <TextBlock Grid.Row="0" Text="{Binding ShortName}" FontSize="8" Foreground="White" TextTrimming="CharacterEllipsis" TextAlignment="Center" Padding="2,1,2,0"/>
                                 <Grid Grid.Row="1">
-                                    <Image Source="{Binding IconPath}" Width="28" Height="28" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="2,0,0,0"/>
-                                    <TextBlock FontSize="8" Foreground="#90EE90" FontWeight="Bold" TextAlignment="Right" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,2,2">
+                                    <Image Source="{Binding IconPath}" Width="32" Height="32" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="2,0,0,0"/>
+                                    <TextBlock FontSize="10" Foreground="#90EE90" FontWeight="Bold" TextAlignment="Right" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,2,2">
                                         <Run Text="{Binding CurrentQuantity, Mode=OneWay}"/><Run Text="/"/><Run Text="{Binding RequiredQuantity, Mode=OneWay}"/>
                                     </TextBlock>
                                 </Grid>

@@ -29,7 +29,7 @@ public class QuestService
         }
     }
 
-    public List<Quest> LoadQuests()
+    public async Task<List<Quest>> LoadQuests()
     {
         var quests = new List<Quest>();
         var questsJsonPath = Path.Combine(
@@ -43,7 +43,7 @@ public class QuestService
 
         try
         {
-            var json = File.ReadAllText(questsJsonPath);
+            var json = await File.ReadAllTextAsync(questsJsonPath);
             using var doc = JsonDocument.Parse(json);
             var root = doc.RootElement;
 
@@ -107,6 +107,12 @@ public class QuestService
             kappa = kappaProperty.GetBoolean();
         }
 
+        var map = "";
+        if (element.TryGetProperty("map", out var mapProperty))
+        {
+            map = mapProperty.GetString() ?? string.Empty;
+        }
+
         if (string.IsNullOrEmpty(id) || string.IsNullOrEmpty(name))
             return null;
 
@@ -116,6 +122,7 @@ public class QuestService
             Name = name,
             ShortDescription = shortDescription,
             Kappa = kappa,
+            Map = map,
             IsCompleted = false,
             IsPinned = false
         };

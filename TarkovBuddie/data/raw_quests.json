@@ -6,7 +6,8 @@
     "level": null,
     "short_description": "Hand over 4 fuel conditioners to BTR driver",
     "trader": "BTR Driver",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Grenadier",
@@ -23,9 +24,11 @@
         "level": 33,
         "short_description": "Kill 35 any targets using explosives.",
         "trader": "prapor",
-        "children_quests": []
+        "children_quests": [],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Test drive - Part 1",
@@ -68,23 +71,29 @@
                     "trader": "prapor",
                     "children_quests": [
                       {
-                        "name": "Test-drive - Part 6",
+                        "name": "Test Drive - Part 6",
                         "id": 664,
                         "kappa": true,
                         "level": null,
                         "short_description": "Eliminate 50 targets using the Aklys Defence Velociraptor at Customs.",
                         "trader": "prapor",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": "customs"
                       }
-                    ]
+                    ],
+                    "map": "factory"
                   }
-                ]
+                ],
+                "map": "shoreline"
               }
-            ]
+            ],
+            "map": "lighthouse"
           }
-        ]
+        ],
+        "map": "streets"
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Shooting Cans",
@@ -109,7 +118,8 @@
             "level": 5,
             "short_description": "Find Prapor's missing convoy and locate USEC temporary camp on Woods",
             "trader": "prapor",
-            "children_quests": []
+            "children_quests": [],
+            "map": "woods"
           },
           {
             "name": "Luxurious life",
@@ -134,7 +144,8 @@
                     "level": 3,
                     "short_description": "Neutralize 15 Scavs on Woods",
                     "trader": "prapor",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": "woods"
                   },
                   {
                     "name": "Delivery from the past",
@@ -169,7 +180,7 @@
                                 "trader": "prapor",
                                 "children_quests": [
                                   {
-                                    "name": "Postman Pat. Part 1",
+                                    "name": "Postman Pat - Part 1",
                                     "id": 14,
                                     "kappa": true,
                                     "level": null,
@@ -177,13 +188,14 @@
                                     "trader": "prapor",
                                     "children_quests": [
                                       {
-                                        "name": "Postman Pat. Part 2",
+                                        "name": "Postman Pat - Part 2",
                                         "id": 15,
                                         "kappa": true,
                                         "level": null,
                                         "short_description": "Find the letter in the Factory and give it to the Therapist",
                                         "trader": "therapist",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       },
                                       {
                                         "name": "You've Got Mail",
@@ -198,24 +210,15 @@
                                             "id": 268,
                                             "kappa": true,
                                             "level": null,
-                                            "short_description": "Locate the apartment of on Streets of Tarkov",
+                                            "short_description": "Locate the apartment of on streets",
                                             "trader": "prapor",
                                             "children_quests": [
-                                              {
-                                                "name": "Best Job in the World",
-                                                "id": 290,
-                                                "kappa": false,
-                                                "level": 25,
-                                                "short_description": "Eliminate 30 any enemy over 100 meters away while using AK-74 series",
-                                                "trader": "prapor",
-                                                "children_quests": []
-                                              },
                                               {
                                                 "name": "Glory to CPSU - Part 2",
                                                 "id": 314,
                                                 "kappa": false,
                                                 "level": 22,
-                                                "short_description": "Locate Prapor's friend's work place on Streets of Tarkov",
+                                                "short_description": "Locate Prapor's friend's work place on streets",
                                                 "trader": "prapor",
                                                 "children_quests": [
                                                   {
@@ -225,13 +228,17 @@
                                                     "level": null,
                                                     "short_description": "Visit the building, find and transfer the database.",
                                                     "trader": "prapor",
-                                                    "children_quests": []
+                                                    "children_quests": [],
+                                                    "map": "streets"
                                                   }
-                                                ]
+                                                ],
+                                                "map": "streets"
                                               }
-                                            ]
+                                            ],
+                                            "map": "streets"
                                           }
-                                        ]
+                                        ],
+                                        "map": "streets"
                                       },
                                       {
                                         "name": "Possessor",
@@ -240,9 +247,11 @@
                                         "level": null,
                                         "short_description": "Find and hand over helicopter logbook to Prapor",
                                         "trader": "prapor",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "factory"
                                       }
-                                    ]
+                                    ],
+                                    "map": "factory"
                                   },
                                   {
                                     "name": "Shaking up the Teller",
@@ -275,11 +284,14 @@
                                                 "level": null,
                                                 "short_description": "Find in raid and hand over fabrics and KEKTAPEs",
                                                 "trader": "ragman",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       },
                                       {
                                         "name": "The Punisher - Part 1",
@@ -322,7 +334,7 @@
                                                         "trader": "prapor",
                                                         "children_quests": [
                                                           {
-                                                            "name": "The Punisher. Part 6",
+                                                            "name": "The Punisher - Part 6",
                                                             "id": 172,
                                                             "kappa": true,
                                                             "level": 21,
@@ -336,7 +348,8 @@
                                                                 "level": 45,
                                                                 "short_description": "Eliminate 40 Scavs with headshots",
                                                                 "trader": "prapor",
-                                                                "children_quests": []
+                                                                "children_quests": [],
+                                                                "map": ""
                                                               },
                                                               {
                                                                 "name": "Capturing Outposts",
@@ -345,7 +358,8 @@
                                                                 "level": 42,
                                                                 "short_description": "Kill 8 PMCs in certain places on Shoreline, Woods and Customs",
                                                                 "trader": "prapor",
-                                                                "children_quests": []
+                                                                "children_quests": [],
+                                                                "map": ""
                                                               },
                                                               {
                                                                 "name": "Escort",
@@ -354,7 +368,8 @@
                                                                 "level": 46,
                                                                 "short_description": "Eliminate 4 PMCs at every location without dying",
                                                                 "trader": "prapor",
-                                                                "children_quests": []
+                                                                "children_quests": [],
+                                                                "map": ""
                                                               },
                                                               {
                                                                 "name": "Best Job in the World",
@@ -363,14 +378,15 @@
                                                                 "level": 25,
                                                                 "short_description": "Eliminate 30 any enemy over 100 meters away while using AK-74 series",
                                                                 "trader": "prapor",
-                                                                "children_quests": []
+                                                                "children_quests": [],
+                                                                "map": ""
                                                               },
                                                               {
                                                                 "name": "Gendarmerie - Mall Cop",
                                                                 "id": 319,
                                                                 "kappa": false,
                                                                 "level": null,
-                                                                "short_description": "Kill 15 any targets with pistols in the stylobate area in the Streets of Tarkov",
+                                                                "short_description": "Kill 15 any targets with pistols in the stylobate area in the streets",
                                                                 "trader": "prapor",
                                                                 "children_quests": [
                                                                   {
@@ -378,7 +394,7 @@
                                                                     "id": 324,
                                                                     "kappa": false,
                                                                     "level": null,
-                                                                    "short_description": "Kill 25 targets with SMGs in the Rodina Cinema area on the Streets of Tarkov",
+                                                                    "short_description": "Kill 25 targets with SMGs in the Rodina Cinema area on the streets",
                                                                     "trader": "prapor",
                                                                     "children_quests": [
                                                                       {
@@ -388,11 +404,14 @@
                                                                         "level": null,
                                                                         "short_description": "Eliminate 30 targets at the Cardinal, use Assault rifles or carbines on Streets",
                                                                         "trader": "prapor",
-                                                                        "children_quests": []
+                                                                        "children_quests": [],
+                                                                        "map": "streets"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "map": "streets"
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "map": "streets"
                                                               },
                                                               {
                                                                 "name": "Special order",
@@ -401,11 +420,14 @@
                                                                 "level": null,
                                                                 "short_description": "Hand over the Red Rebel Ice Axes found during the raid",
                                                                 "trader": "prapor",
-                                                                "children_quests": []
+                                                                "children_quests": [],
+                                                                "map": ""
                                                               }
-                                                            ]
+                                                            ],
+                                                            "map": ""
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": ""
                                                       },
                                                       {
                                                         "name": "Our Own Land",
@@ -414,20 +436,24 @@
                                                         "level": 30,
                                                         "short_description": "Eliminate 20 USEC PMC on the Lighthouse and hand over dogtags",
                                                         "trader": "prapor",
-                                                        "children_quests": []
+                                                        "children_quests": [],
+                                                        "map": "lighthouse"
                                                       },
                                                       {
                                                         "name": "Kings of the Rooftops",
                                                         "id": 266,
                                                         "kappa": false,
                                                         "level": 22,
-                                                        "short_description": "Kill the snipers on the rooftops of the Streets of Tarkov",
+                                                        "short_description": "Kill the snipers on the rooftops of the streets",
                                                         "trader": "prapor",
-                                                        "children_quests": []
+                                                        "children_quests": [],
+                                                        "map": "streets"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": "lighthouse"
                                                   }
-                                                ]
+                                                ],
+                                                "map": "customs"
                                               },
                                               {
                                                 "name": "Easy Job - Part 1",
@@ -438,13 +464,14 @@
                                                 "trader": "prapor",
                                                 "children_quests": [
                                                   {
-                                                    "name": "Easy Job. Part 2",
+                                                    "name": "Easy Job - Part 2",
                                                     "id": 241,
                                                     "kappa": true,
                                                     "level": null,
                                                     "short_description": "Kill 10 any targets at the territory of the water treatment plant",
                                                     "trader": "prapor",
-                                                    "children_quests": []
+                                                    "children_quests": [],
+                                                    "map": "lighthouse"
                                                   },
                                                   {
                                                     "name": "Reconnaissance",
@@ -453,13 +480,17 @@
                                                     "level": null,
                                                     "short_description": "Visit three office buildings roofs on Lighthouse",
                                                     "trader": "prapor",
-                                                    "children_quests": []
+                                                    "children_quests": [],
+                                                    "map": "lighthouse"
                                                   }
-                                                ]
+                                                ],
+                                                "map": "lighthouse"
                                               }
-                                            ]
+                                            ],
+                                            "map": "reserve"
                                           }
-                                        ]
+                                        ],
+                                        "map": "shoreline"
                                       },
                                       {
                                         "name": "Anesthesia",
@@ -469,73 +500,6 @@
                                         "short_description": "Mark three trading posts on Shoreline",
                                         "trader": "prapor",
                                         "children_quests": [
-                                          {
-                                            "name": "Chemistry closet",
-                                            "id": 41,
-                                            "kappa": true,
-                                            "level": 22,
-                                            "short_description": "Visit Room 110 of the Health Resort's East Wing on Shoreline",
-                                            "trader": "mechanic",
-                                            "children_quests": [
-                                              {
-                                                "name": "Colleagues - Part 3",
-                                                "id": 161,
-                                                "kappa": true,
-                                                "level": null,
-                                                "short_description": "Don't kill Sanitar. Hang over 10 lab keys",
-                                                "trader": "therapist",
-                                                "children_quests": [
-                                                  {
-                                                    "name": "Swift One",
-                                                    "id": 163,
-                                                    "kappa": false,
-                                                    "level": 50,
-                                                    "short_description": "Kill 15 PMCs without using any Armor or Helmets on Woods",
-                                                    "trader": "jaeger",
-                                                    "children_quests": []
-                                                  }
-                                                ]
-                                              },
-                                              {
-                                                "name": "The Huntsman path - Sadist",
-                                                "id": 162,
-                                                "kappa": true,
-                                                "level": null,
-                                                "short_description": "Eliminate Sanitar",
-                                                "trader": "jaeger",
-                                                "children_quests": [
-                                                  {
-                                                    "name": "TerraGroup employee",
-                                                    "id": 167,
-                                                    "kappa": true,
-                                                    "level": 23,
-                                                    "short_description": "Find USB flash drive in Sanitar's office on Labs and give it to the Peacekeeper",
-                                                    "trader": "peacemaker",
-                                                    "children_quests": []
-                                                  }
-                                                ]
-                                              },
-                                              {
-                                                "name": "Calibration",
-                                                "id": 201,
-                                                "kappa": false,
-                                                "level": 47,
-                                                "short_description": "Kill 20 PMCs from at least 100 meters away",
-                                                "trader": "mechanic",
-                                                "children_quests": [
-                                                  {
-                                                    "name": "The Courier",
-                                                    "id": 206,
-                                                    "kappa": false,
-                                                    "level": 52,
-                                                    "short_description": "Place two thermal imagers on Customs",
-                                                    "trader": "mechanic",
-                                                    "children_quests": []
-                                                  }
-                                                ]
-                                              }
-                                            ]
-                                          },
                                           {
                                             "name": "Rigged game",
                                             "id": 165,
@@ -551,9 +515,11 @@
                                                 "level": 50,
                                                 "short_description": "Find in raid and hand over 12 cultist knives",
                                                 "trader": "skier",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": "shoreline"
                                           },
                                           {
                                             "name": "Samples",
@@ -562,18 +528,23 @@
                                             "level": null,
                                             "short_description": "Find in raid specified stimulant injectors",
                                             "trader": "peacemaker",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": "shoreline"
                                       }
-                                    ]
+                                    ],
+                                    "map": "customs"
                                   }
-                                ]
+                                ],
+                                "map": "woods"
                               }
-                            ]
+                            ],
+                            "map": ""
                           },
                           {
-                            "name": "The bunker. Part 1",
+                            "name": "The Bunker - Part 1",
                             "id": 31,
                             "kappa": true,
                             "level": 10,
@@ -581,7 +552,7 @@
                             "trader": "prapor",
                             "children_quests": [
                               {
-                                "name": "The bunker. Part 2",
+                                "name": "The bunker - Part 2",
                                 "id": 32,
                                 "kappa": true,
                                 "level": 15,
@@ -603,23 +574,17 @@
                                         "level": 19,
                                         "short_description": "Find three military documents on the Reserve",
                                         "trader": "prapor",
-                                        "children_quests": [
-                                          {
-                                            "name": "Special Communications",
-                                            "id": 428,
-                                            "kappa": false,
-                                            "level": null,
-                                            "short_description": "Stash items on Woods and Reserve, with Woods-Reserve transfer",
-                                            "trader": "prapor",
-                                            "children_quests": []
-                                          }
-                                        ]
+                                        "children_quests": [],
+                                        "map": "reserve"
                                       }
-                                    ]
+                                    ],
+                                    "map": "reserve"
                                   }
-                                ]
+                                ],
+                                "map": "reserve"
                               }
-                            ]
+                            ],
+                            "map": "reserve"
                           },
                           {
                             "name": "Squirrel and Arrow",
@@ -628,17 +593,23 @@
                             "level": null,
                             "short_description": "Survive and extract from Customs using the signal.",
                             "trader": "prapor",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": "customs"
               }
-            ]
+            ],
+            "map": "ground_zero"
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Special Communications",
@@ -647,7 +618,8 @@
         "level": null,
         "short_description": "Stash items on Woods and Reserve, with Woods-Reserve transfer",
         "trader": "prapor",
-        "children_quests": []
+        "children_quests": [],
+        "map": ""
       },
       {
         "name": "The Good Times. Part 1",
@@ -728,23 +700,32 @@
                                             "level": null,
                                             "short_description": "Find the quest key on the Streets of Tarkhov",
                                             "trader": "ragman",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "shoreline"
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "interchange"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": "woods"
               }
-            ]
+            ],
+            "map": ""
           },
           {
             "name": "Hell on Earth. Part 1",
@@ -761,13 +742,17 @@
                 "level": null,
                 "short_description": "Eliminate 3 cultists with doublebarreled shotgun",
                 "trader": "prapor",
-                "children_quests": []
+                "children_quests": [],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": "ground_zero"
   },
   {
     "name": "Start of the BTR Quests. Temporarily in the Prapor questline",
@@ -834,45 +819,6 @@
                                 "trader": "prapor",
                                 "children_quests": [
                                   {
-                                    "name": "Change battery",
-                                    "id": 677,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Transfer military battery",
-                                    "trader": "prapor",
-                                    "children_quests": [
-                                      {
-                                        "name": "Close the sky",
-                                        "id": 678,
-                                        "kappa": false,
-                                        "level": null,
-                                        "short_description": "Find and hand over the package",
-                                        "trader": "prapor",
-                                        "children_quests": [
-                                          {
-                                            "name": "Outplay and destroy",
-                                            "id": 687,
-                                            "kappa": false,
-                                            "level": null,
-                                            "short_description": "Plant VOG-25s in crates on Woods",
-                                            "trader": "prapor",
-                                            "children_quests": [
-                                              {
-                                                "name": "The Price of Independence",
-                                                "id": 688,
-                                                "kappa": false,
-                                                "level": null,
-                                                "short_description": "Find the letter, go to the locations, kill the targets",
-                                                "trader": "prapor",
-                                                "children_quests": []
-                                              }
-                                            ]
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  },
-                                  {
                                     "name": "Solidify friendship",
                                     "id": 679,
                                     "kappa": false,
@@ -895,51 +841,14 @@
                                             "level": null,
                                             "short_description": "Kill 30 any targets on any location",
                                             "trader": "prapor",
-                                            "children_quests": [
-                                              {
-                                                "name": "Change battery",
-                                                "id": 677,
-                                                "kappa": false,
-                                                "level": null,
-                                                "short_description": "Transfer military battery",
-                                                "trader": "prapor",
-                                                "children_quests": [
-                                                  {
-                                                    "name": "Close the sky",
-                                                    "id": 678,
-                                                    "kappa": false,
-                                                    "level": null,
-                                                    "short_description": "Find and hand over the package",
-                                                    "trader": "prapor",
-                                                    "children_quests": [
-                                                      {
-                                                        "name": "Outplay and destroy",
-                                                        "id": 687,
-                                                        "kappa": false,
-                                                        "level": null,
-                                                        "short_description": "Plant VOG-25s in crates on Woods",
-                                                        "trader": "prapor",
-                                                        "children_quests": [
-                                                          {
-                                                            "name": "The Price of Independence",
-                                                            "id": 688,
-                                                            "kappa": false,
-                                                            "level": null,
-                                                            "short_description": "Find the letter, go to the locations, kill the targets",
-                                                            "trader": "prapor",
-                                                            "children_quests": []
-                                                          }
-                                                        ]
-                                                      }
-                                                    ]
-                                                  }
-                                                ]
-                                              }
-                                            ]
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   },
                                   {
                                     "name": "Ask for directions",
@@ -956,22 +865,17 @@
                                         "level": null,
                                         "short_description": "Kill scavs in one raid and survive",
                                         "trader": "ragman",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": "lighthouse"
                                   }
-                                ]
-                              },
-                              {
-                                "name": "Delivery delay",
-                                "id": 693,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Find a group and survive in the raid",
-                                "trader": "ragman",
-                                "children_quests": []
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           },
                           {
                             "name": "Easy side job",
@@ -980,7 +884,8 @@
                             "level": null,
                             "short_description": "Find and stash the package",
                             "trader": "lightkeeper",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Above your head",
@@ -1029,7 +934,8 @@
                                                 "level": null,
                                                 "short_description": "Make the transitions and kill 5 PMCs",
                                                 "trader": "skier",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               },
                                               {
                                                 "name": "Change battery",
@@ -1062,25 +968,35 @@
                                                             "level": null,
                                                             "short_description": "Find the letter, go to the locations, kill the targets",
                                                             "trader": "prapor",
-                                                            "children_quests": []
+                                                            "children_quests": [],
+                                                            "map": ""
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": ""
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": ""
                                                   }
-                                                ]
+                                                ],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "woods"
                       },
                       {
                         "name": "Hot Wheels. Second Attempt",
@@ -1097,159 +1013,26 @@
                             "level": null,
                             "short_description": "Find a group and survive in the raid",
                             "trader": "ragman",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": "woods"
       }
-    ]
-  },
-  {
-    "name": "Start of the storyline for release 1.0",
-    "id": 802,
-    "kappa": false,
-    "level": null,
-    "short_description": "This is where the release quests of the game will begin",
-    "trader": "prapor",
-    "children_quests": [
-      {
-        "name": "Tour",
-        "id": 804,
-        "kappa": true,
-        "level": null,
-        "short_description": "Starting storylane. Epicenter",
-        "trader": "prapor",
-        "children_quests": [
-          {
-            "name": "Falling Skies",
-            "id": 806,
-            "kappa": false,
-            "level": null,
-            "short_description": "Find the crashed plane in Woods. Storylane",
-            "trader": "prapor",
-            "children_quests": [
-              {
-                "name": "The Ticket",
-                "id": 813,
-                "kappa": false,
-                "level": null,
-                "short_description": "Storyline. Recon Center 1",
-                "trader": "prapor",
-                "children_quests": [
-                  {
-                    "name": "The Ticket. Kerman. \"Savior\"",
-                    "id": 816,
-                    "kappa": false,
-                    "level": null,
-                    "short_description": "Kerman’s path storyline. The best ending",
-                    "trader": "prapor",
-                    "children_quests": [
-                      {
-                        "name": "Notes for completing the quest 100% Ticket for Kerman",
-                        "id": 815,
-                        "kappa": false,
-                        "level": null,
-                        "short_description": "All the notes you need to complete the \"Ticket\" quest 100%",
-                        "trader": "prapor",
-                        "children_quests": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "The Ticket. Prapor. \"Fallen\"",
-                    "id": 817,
-                    "kappa": false,
-                    "level": null,
-                    "short_description": "Prapor’s path storyline. Choice and ending",
-                    "trader": "prapor",
-                    "children_quests": []
-                  },
-                  {
-                    "name": "The Ticket. Lightkeeper. \"Stay in Tarkov\"",
-                    "id": 818,
-                    "kappa": false,
-                    "level": null,
-                    "short_description": "A branch of the story for the Lightkeeper. Stay in Tarkov.",
-                    "trader": "prapor",
-                    "children_quests": []
-                  },
-                  {
-                    "name": "The Ticket. Prapor. Fast ending. \"The Survivor\"",
-                    "id": 819,
-                    "kappa": false,
-                    "level": null,
-                    "short_description": "Story branch for Prapor. Simple neutral ending.",
-                    "trader": "prapor",
-                    "children_quests": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "They Are Already Here",
-        "id": 807,
-        "kappa": false,
-        "level": null,
-        "short_description": "You need to find the key to the marked room 314 and locate the spot.",
-        "trader": "prapor",
-        "children_quests": []
-      },
-      {
-        "name": "Batya",
-        "id": 808,
-        "kappa": false,
-        "level": null,
-        "short_description": "Find the patch in the shack, and then find various items.",
-        "trader": "prapor",
-        "children_quests": []
-      },
-      {
-        "name": "Accidental witness",
-        "id": 809,
-        "kappa": false,
-        "level": null,
-        "short_description": "Find any information about Kozlov",
-        "trader": "prapor",
-        "children_quests": []
-      },
-      {
-        "name": "Blue Fire",
-        "id": 810,
-        "kappa": false,
-        "level": null,
-        "short_description": "EMI storyline. It starts on the Woods map.",
-        "trader": "prapor",
-        "children_quests": []
-      },
-      {
-        "name": "The Unheard",
-        "id": 811,
-        "kappa": false,
-        "level": null,
-        "short_description": "The Unknowns storyline. It begins on the Streets of Tarkov.",
-        "trader": "prapor",
-        "children_quests": []
-      },
-      {
-        "name": "Labyrinth",
-        "id": 812,
-        "kappa": false,
-        "level": null,
-        "short_description": "Labyrinth storyline. Shoreline",
-        "trader": "prapor",
-        "children_quests": []
-      }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "First in line",
@@ -1268,7 +1051,7 @@
         "trader": "therapist",
         "children_quests": [
           {
-            "name": "Sanitary Standards. Part 1",
+            "name": "Sanitary Standards - Part 1",
             "id": 9,
             "kappa": true,
             "level": 4,
@@ -1276,7 +1059,7 @@
             "trader": "therapist",
             "children_quests": [
               {
-                "name": "Sanitary Standards. Part 2",
+                "name": "Sanitary Standards - Part 2",
                 "id": 21,
                 "kappa": true,
                 "level": 8,
@@ -1306,7 +1089,8 @@
                             "level": 15,
                             "short_description": "Find two mdeical records on Reserve",
                             "trader": "therapist",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "reserve"
                           },
                           {
                             "name": "Supply Plans",
@@ -1329,11 +1113,13 @@
                                     "id": 260,
                                     "kappa": false,
                                     "level": 15,
-                                    "short_description": "Survive and leave the location by taxi on the Streets of Tarkov",
+                                    "short_description": "Survive and leave the location by taxi on the streets",
                                     "trader": "therapist",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "streets"
                                   }
-                                ]
+                                ],
+                                "map": ""
                               },
                               {
                                 "name": "The Huntsman path - Woods Keeper",
@@ -1350,7 +1136,8 @@
                                     "level": 33,
                                     "short_description": "Eliminate Shturman from over 75+ meters with a Remington M700 with a scope",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "woods"
                                   },
                                   {
                                     "name": "Stray Dogs",
@@ -1359,11 +1146,14 @@
                                     "level": 35,
                                     "short_description": "Eliminate Big Pipe, Death Knight and Birdeye",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "woods"
                               }
-                            ]
+                            ],
+                            "map": "woods"
                           },
                           {
                             "name": "Health Care Privacy - Part 1",
@@ -1412,9 +1202,11 @@
                                                 "level": 38,
                                                 "short_description": "Find medical equipment and medicine",
                                                 "trader": "therapist",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           },
                                           {
                                             "name": "Health Care Privacy - Part 5",
@@ -1431,7 +1223,8 @@
                                                 "level": null,
                                                 "short_description": "Kill 40 Scavs on Interchange, from less than 60 meters away in spec. gear",
                                                 "trader": "therapist",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": "interchange"
                                               },
                                               {
                                                 "name": "Health Care Privacy - Part 6",
@@ -1440,30 +1233,14 @@
                                                 "level": null,
                                                 "short_description": "Find blood sample on Factory and hand over to Therapist",
                                                 "trader": "therapist",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": "factory"
                                               }
-                                            ]
-                                          },
-                                          {
-                                            "name": "Private clinic",
-                                            "id": 159,
-                                            "kappa": true,
-                                            "level": 35,
-                                            "short_description": "Find in raid Ophthalmoscope and LEDX",
-                                            "trader": "therapist",
-                                            "children_quests": [
-                                              {
-                                                "name": "Decontamination service",
-                                                "id": 160,
-                                                "kappa": true,
-                                                "level": null,
-                                                "short_description": "Kill 40 Scavs on Interchange, from less than 60 meters away in spec. gear",
-                                                "trader": "therapist",
-                                                "children_quests": []
-                                              }
-                                            ]
+                                            ],
+                                            "map": "factory"
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       },
                                       {
                                         "name": "An apple a day – keeps the doctor away",
@@ -1472,9 +1249,11 @@
                                         "level": null,
                                         "short_description": "Handover 400,000 roubles",
                                         "trader": "therapist",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": "woods"
                                   },
                                   {
                                     "name": "Lost Contact",
@@ -1491,13 +1270,17 @@
                                         "level": null,
                                         "short_description": "Install a wi-fi camera on Lighthouse behind the Rogues' base",
                                         "trader": "therapist",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "lighthouse"
                                       }
-                                    ]
+                                    ],
+                                    "map": "lighthouse"
                                   }
-                                ]
+                                ],
+                                "map": "shoreline"
                               }
-                            ]
+                            ],
+                            "map": "shoreline"
                           },
                           {
                             "name": "Car repair",
@@ -1506,7 +1289,8 @@
                             "level": null,
                             "short_description": "Find in raid 4 car batteries and 8 spark plugs for Therapist",
                             "trader": "therapist",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "General wares",
@@ -1531,7 +1315,8 @@
                                     "level": null,
                                     "short_description": "Find the Sanitar's Ophthalmoscope and Surgical Kit on Shoreline",
                                     "trader": "therapist",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "shoreline"
                                   },
                                   {
                                     "name": "Chemistry closet",
@@ -1541,25 +1326,6 @@
                                     "short_description": "Visit Room 110 of the Health Resort's East Wing on Shoreline",
                                     "trader": "mechanic",
                                     "children_quests": [
-                                      {
-                                        "name": "Colleagues - Part 3",
-                                        "id": 161,
-                                        "kappa": true,
-                                        "level": null,
-                                        "short_description": "Don't kill Sanitar. Hang over 10 lab keys",
-                                        "trader": "therapist",
-                                        "children_quests": [
-                                          {
-                                            "name": "Swift One",
-                                            "id": 163,
-                                            "kappa": false,
-                                            "level": 50,
-                                            "short_description": "Kill 15 PMCs without using any Armor or Helmets on Woods",
-                                            "trader": "jaeger",
-                                            "children_quests": []
-                                          }
-                                        ]
-                                      },
                                       {
                                         "name": "The Huntsman path - Sadist",
                                         "id": 162,
@@ -1575,9 +1341,32 @@
                                             "level": 23,
                                             "short_description": "Find USB flash drive in Sanitar's office on Labs and give it to the Peacekeeper",
                                             "trader": "peacemaker",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": "lab"
                                           }
-                                        ]
+                                        ],
+                                        "map": "shoreline"
+                                      },
+                                      {
+                                        "name": "Colleagues - Part 3",
+                                        "id": 161,
+                                        "kappa": true,
+                                        "level": null,
+                                        "short_description": "Don't kill Sanitar. Hang over 10 lab keys",
+                                        "trader": "therapist",
+                                        "children_quests": [
+                                          {
+                                            "name": "Swift One",
+                                            "id": 163,
+                                            "kappa": false,
+                                            "level": 50,
+                                            "short_description": "Kill 15 PMCs without using any Armor or Helmets on Woods",
+                                            "trader": "jaeger",
+                                            "children_quests": [],
+                                            "map": "woods"
+                                          }
+                                        ],
+                                        "map": ""
                                       },
                                       {
                                         "name": "Calibration",
@@ -1594,15 +1383,20 @@
                                             "level": 52,
                                             "short_description": "Place two thermal imagers on Customs",
                                             "trader": "mechanic",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": "customs"
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": "shoreline"
                                   }
-                                ]
+                                ],
+                                "map": "shoreline"
                               }
-                            ]
+                            ],
+                            "map": ""
                           },
                           {
                             "name": "Seaside Vacation",
@@ -1635,13 +1429,17 @@
                                         "level": null,
                                         "short_description": "Find and bring the items",
                                         "trader": "therapist",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "customs"
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "customs"
                               }
-                            ]
+                            ],
+                            "map": "lighthouse"
                           },
                           {
                             "name": "Population census",
@@ -1660,24 +1458,17 @@
                                 "trader": "therapist",
                                 "children_quests": [
                                   {
-                                    "name": "Ambulances Again",
-                                    "id": 316,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Find the paramedic's smartphone on Streets of Tarkov and extract (in one raid)",
-                                    "trader": "therapist",
-                                    "children_quests": []
-                                  },
-                                  {
                                     "name": "The Huntsman Path - Big Game",
                                     "id": 318,
                                     "kappa": false,
                                     "level": null,
                                     "short_description": "Find and kill the Kaban and his guards in the amount of 5 people",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "streets"
                                   }
-                                ]
+                                ],
+                                "map": "streets"
                               },
                               {
                                 "name": "Pets Won't Need It - Part 1",
@@ -1694,19 +1485,26 @@
                                     "level": null,
                                     "short_description": "Find three pharmacies on Streets to get out and survive",
                                     "trader": "therapist",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "streets"
                                   }
-                                ]
+                                ],
+                                "map": "streets"
                               }
-                            ]
+                            ],
+                            "map": "streets"
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": "factory"
           },
           {
             "name": "Operation Aquarius. Part 1",
@@ -1723,22 +1521,27 @@
                 "level": 6,
                 "short_description": "Eliminate 15 Scavs on Customs",
                 "trader": "therapist",
-                "children_quests": []
+                "children_quests": [],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Beneath the Streets",
         "id": 434,
         "kappa": false,
         "level": null,
-        "short_description": "Transfer from Streets of Tarkov to Labs and visit 4 locations",
+        "short_description": "Transfer from streets to Labs and visit 4 locations",
         "trader": "therapist",
-        "children_quests": []
+        "children_quests": [],
+        "map": ""
       }
-    ]
+    ],
+    "map": "ground_zero"
   },
   {
     "name": "Burning Rubber",
@@ -1795,9 +1598,11 @@
                             "level": 25,
                             "short_description": "Find in raid 6-Sten-140-M military battery and 5 OFZ 30x160mm shells",
                             "trader": "prapor",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       },
                       {
                         "name": "Chemical - Part 1",
@@ -1854,9 +1659,11 @@
                                                 "level": null,
                                                 "short_description": "Find a component in the Terragroup office on the Streets",
                                                 "trader": "skier",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": "streets"
                                               }
-                                            ]
+                                            ],
+                                            "map": "streets"
                                           },
                                           {
                                             "name": "Pyramid Scheme",
@@ -1865,9 +1672,11 @@
                                             "level": 28,
                                             "short_description": "Find ATMs at the Tarkov Street location.",
                                             "trader": "skier",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": "streets"
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       },
                                       {
                                         "name": "Pyramid Scheme",
@@ -1876,9 +1685,11 @@
                                         "level": 28,
                                         "short_description": "Find ATMs at the Tarkov Street location.",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "streets"
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   },
                                   {
                                     "name": "Chemical - Part 4",
@@ -1903,9 +1714,11 @@
                                             "level": null,
                                             "short_description": "Hand over 10 M67 grenades",
                                             "trader": "prapor",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": "customs"
                                       },
                                       {
                                         "name": "Out of curiosity",
@@ -1922,9 +1735,11 @@
                                             "level": null,
                                             "short_description": "Hand over the keys to the Therapist",
                                             "trader": "therapist",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": "customs"
                                       },
                                       {
                                         "name": "Safe corridor",
@@ -1933,7 +1748,8 @@
                                         "level": 15,
                                         "short_description": "Eliminate 10 Scavs in the underground warehouse on Reserve",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "reserve"
                                       },
                                       {
                                         "name": "Loyalty buyout",
@@ -1942,21 +1758,29 @@
                                         "level": null,
                                         "short_description": "Pay 1 million rubles to Skier",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": "customs"
                                   }
-                                ]
+                                ],
+                                "map": "factory"
                               }
-                            ]
+                            ],
+                            "map": "customs"
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       }
-                    ]
+                    ],
+                    "map": "customs"
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": "customs"
           },
           {
             "name": "Stirrup",
@@ -1965,7 +1789,8 @@
             "level": 8,
             "short_description": "Eliminate 3 PMC operatives while using pistols",
             "trader": "skier",
-            "children_quests": []
+            "children_quests": [],
+            "map": ""
           },
           {
             "name": "Friend from the West - Part 1",
@@ -1984,7 +1809,7 @@
                 "trader": "skier",
                 "children_quests": [
                   {
-                    "name": "Lend lease. Part 1",
+                    "name": "Lend lease - Part 1",
                     "id": 62,
                     "kappa": true,
                     "level": 25,
@@ -2006,11 +1831,14 @@
                             "level": null,
                             "short_description": "Kill 12 Scavs in spec. gear on Woods, Customs, Interchange, and Shoreline",
                             "trader": "peacemaker",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "Long Road",
@@ -2035,11 +1863,14 @@
                             "level": null,
                             "short_description": "Find the military HDD on Lighthouse and hand it over to Skier",
                             "trader": "skier",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "lighthouse"
                           }
-                        ]
+                        ],
+                        "map": "lighthouse"
                       }
-                    ]
+                    ],
+                    "map": "lighthouse"
                   },
                   {
                     "name": "Setup",
@@ -2088,11 +1919,14 @@
                                         "level": null,
                                         "short_description": "Eliminate a PMC at a distance more than 40 meters using a particular weapon",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "customs"
                               },
                               {
                                 "name": "Flint",
@@ -2117,18 +1951,21 @@
                                         "level": null,
                                         "short_description": "Kill 20 of any targets with MPS Auto Assault-12",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               },
                               {
                                 "name": "Debtor",
                                 "id": 272,
                                 "kappa": false,
                                 "level": 31,
-                                "short_description": "Find the debtor on Streets of Tarkov",
+                                "short_description": "Find the debtor on streets",
                                 "trader": "skier",
                                 "children_quests": [
                                   {
@@ -2136,7 +1973,7 @@
                                     "id": 275,
                                     "kappa": false,
                                     "level": null,
-                                    "short_description": "Find the location of the missing group on the Streets of Tarkov",
+                                    "short_description": "Find the location of the missing group on the streets",
                                     "trader": "skier",
                                     "children_quests": [
                                       {
@@ -2146,11 +1983,14 @@
                                         "level": null,
                                         "short_description": "Find the prison commandant's apartment on Tarkov Streets",
                                         "trader": "skier",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "streets"
                                       }
-                                    ]
+                                    ],
+                                    "map": "streets"
                                   }
-                                ]
+                                ],
+                                "map": "streets"
                               },
                               {
                                 "name": "No Swiping",
@@ -2159,7 +1999,8 @@
                                 "level": null,
                                 "short_description": "Locate specified location and eliminate 10 enemies",
                                 "trader": "skier",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "shoreline"
                               },
                               {
                                 "name": "Private club",
@@ -2168,19 +2009,26 @@
                                 "level": null,
                                 "short_description": "Find the quest wallet at Customs.",
                                 "trader": "skier",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "customs"
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": "customs"
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Easy Money. Part 1.",
@@ -2277,100 +2125,32 @@
                                                     "level": null,
                                                     "short_description": "Win in two consecutive matches in the required modes",
                                                     "trader": "skier",
-                                                    "children_quests": [
-                                                      {
-                                                        "name": "Against the Conscience. Part 1",
-                                                        "id": 380,
-                                                        "kappa": false,
-                                                        "level": null,
-                                                        "short_description": "Find the apartment",
-                                                        "trader": "fence",
-                                                        "children_quests": [
-                                                          {
-                                                            "name": "Against the Conscience. Part 2",
-                                                            "id": 388,
-                                                            "kappa": false,
-                                                            "level": null,
-                                                            "short_description": "Kill 100 opponents in any Arena mode.",
-                                                            "trader": "skier",
-                                                            "children_quests": [
-                                                              {
-                                                                "name": "Between two fires",
-                                                                "id": 389,
-                                                                "kappa": false,
-                                                                "level": null,
-                                                                "short_description": "Find any info about Host and hand it over to Fence",
-                                                                "trader": "fence",
-                                                                "children_quests": []
-                                                              },
-                                                              {
-                                                                "name": "Decisions, decisions",
-                                                                "id": 390,
-                                                                "kappa": false,
-                                                                "level": null,
-                                                                "short_description": "Find any info about Host and hand it over to him",
-                                                                "trader": "skier",
-                                                                "children_quests": []
-                                                              }
-                                                            ]
-                                                          }
-                                                        ]
-                                                      }
-                                                    ]
+                                                    "children_quests": [],
+                                                    "map": ""
                                                   }
-                                                ]
+                                                ],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
-                              },
-                              {
-                                "name": "Against the Conscience. Part 1",
-                                "id": 380,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Find the apartment",
-                                "trader": "fence",
-                                "children_quests": [
-                                  {
-                                    "name": "Against the Conscience. Part 2",
-                                    "id": 388,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Kill 100 opponents in any Arena mode.",
-                                    "trader": "skier",
-                                    "children_quests": [
-                                      {
-                                        "name": "Between two fires",
-                                        "id": 389,
-                                        "kappa": false,
-                                        "level": null,
-                                        "short_description": "Find any info about Host and hand it over to Fence",
-                                        "trader": "fence",
-                                        "children_quests": []
-                                      },
-                                      {
-                                        "name": "Decisions, decisions",
-                                        "id": 390,
-                                        "kappa": false,
-                                        "level": null,
-                                        "short_description": "Find any info about Host and hand it over to him",
-                                        "trader": "skier",
-                                        "children_quests": []
-                                      }
-                                    ]
-                                  }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "To Great Heights! Part 1",
@@ -2435,7 +2215,8 @@
                                                 "level": null,
                                                 "short_description": "Find any info about Host and hand it over to Fence",
                                                 "trader": "fence",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               },
                                               {
                                                 "name": "Decisions, decisions",
@@ -2444,25 +2225,35 @@
                                                 "level": null,
                                                 "short_description": "Find any info about Host and hand it over to him",
                                                 "trader": "skier",
-                                                "children_quests": []
+                                                "children_quests": [],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           },
           {
             "name": "Provide Viewership",
@@ -2471,11 +2262,14 @@
             "level": null,
             "short_description": "Install 4 cameras in the industrial complex",
             "trader": "skier",
-            "children_quests": []
+            "children_quests": [],
+            "map": "customs"
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": "ground_zero"
   },
   {
     "name": "Creator Inspiration. Part 1",
@@ -2500,11 +2294,14 @@
             "level": null,
             "short_description": "Kill opponents and finish in the top 3 in LastHero",
             "trader": "skier",
-            "children_quests": []
+            "children_quests": [],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Profitable Venture",
@@ -2561,19 +2358,26 @@
                             "level": null,
                             "short_description": "Survive on the Lab and kill Raiders",
                             "trader": "skier",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "lab"
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Fair price. Part 1",
@@ -2582,7 +2386,8 @@
     "level": null,
     "short_description": "Transfer 50.000 Euro to Skier",
     "trader": "skier",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Fishing Gear",
@@ -2639,9 +2444,11 @@
                             "level": 14,
                             "short_description": "Obtain the package with T-90M Commander control panel on Reserve",
                             "trader": "peacemaker",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "reserve"
                           }
-                        ]
+                        ],
+                        "map": "reserve"
                       },
                       {
                         "name": "Spa Tour - Part 1",
@@ -2738,24 +2545,30 @@
                                                                     "level": 25,
                                                                     "short_description": "Kill 25 PMCs during nighttime (21 to 06)",
                                                                     "trader": "peacemaker",
-                                                                    "children_quests": []
+                                                                    "children_quests": [],
+                                                                    "map": ""
                                                                   },
                                                                   {
                                                                     "name": "Your Car Needs a Service",
                                                                     "id": 273,
                                                                     "kappa": false,
                                                                     "level": 35,
-                                                                    "short_description": "Find information in a car dealership on the Streets of Tarkov",
+                                                                    "short_description": "Find information in a car dealership on the streets",
                                                                     "trader": "peacemaker",
-                                                                    "children_quests": []
+                                                                    "children_quests": [],
+                                                                    "map": "streets"
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "map": "lighthouse"
                                                               }
-                                                            ]
+                                                            ],
+                                                            "map": "shoreline"
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": "shoreline"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": "shoreline"
                                                   },
                                                   {
                                                     "name": "Wet Job - Part 1",
@@ -2798,7 +2611,7 @@
                                                                     "trader": "peacemaker",
                                                                     "children_quests": [
                                                                       {
-                                                                        "name": "Wet Job. Part 6",
+                                                                        "name": "Wet Job - Part 6",
                                                                         "id": 227,
                                                                         "kappa": true,
                                                                         "level": 14,
@@ -2820,9 +2633,11 @@
                                                                                 "level": 45,
                                                                                 "short_description": "Kill 40 Raiders on Reserve",
                                                                                 "trader": "peacemaker",
-                                                                                "children_quests": []
+                                                                                "children_quests": [],
+                                                                                "map": ""
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "map": ""
                                                                           },
                                                                           {
                                                                             "name": "Psycho Sniper",
@@ -2831,9 +2646,11 @@
                                                                             "level": 35,
                                                                             "short_description": "Reach the Sniper skill level 10. Kill 5 PMC without dying.",
                                                                             "trader": "mechanic",
-                                                                            "children_quests": []
+                                                                            "children_quests": [],
+                                                                            "map": ""
                                                                           }
-                                                                        ]
+                                                                        ],
+                                                                        "map": ""
                                                                       },
                                                                       {
                                                                         "name": "Worst Job in the World",
@@ -2842,9 +2659,11 @@
                                                                         "level": 25,
                                                                         "short_description": "Eliminate any 30 enemies with an AR-15 from 100 meters",
                                                                         "trader": "peacemaker",
-                                                                        "children_quests": []
+                                                                        "children_quests": [],
+                                                                        "map": ""
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "map": "shoreline"
                                                                   },
                                                                   {
                                                                     "name": "Mentor",
@@ -2853,15 +2672,20 @@
                                                                     "level": null,
                                                                     "short_description": "Pay 50,000 euros",
                                                                     "trader": "peacemaker",
-                                                                    "children_quests": []
+                                                                    "children_quests": [],
+                                                                    "map": ""
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "map": "shoreline"
                                                               }
-                                                            ]
+                                                            ],
+                                                            "map": "shoreline"
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": "shoreline"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": "shoreline"
                                                   },
                                                   {
                                                     "name": "Green Corridor",
@@ -2870,7 +2694,8 @@
                                                     "level": 20,
                                                     "short_description": "Locate the column and locate the ambush site. BEAR",
                                                     "trader": "prapor",
-                                                    "children_quests": []
+                                                    "children_quests": [],
+                                                    "map": "streets"
                                                   },
                                                   {
                                                     "name": "Road closed",
@@ -2879,15 +2704,20 @@
                                                     "level": 20,
                                                     "short_description": "Locate the column and locate the ambush site. USEC",
                                                     "trader": "peacemaker",
-                                                    "children_quests": []
+                                                    "children_quests": [],
+                                                    "map": "streets"
                                                   }
-                                                ]
+                                                ],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": "shoreline"
                                       }
-                                    ]
+                                    ],
+                                    "map": "shoreline"
                                   },
                                   {
                                     "name": "Counteraction",
@@ -2896,11 +2726,14 @@
                                     "level": null,
                                     "short_description": "Eliminate 20 BEAR PMC operatives on Lighthouse and Hand over dogtags",
                                     "trader": "peacemaker",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "lighthouse"
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": "shoreline"
                           },
                           {
                             "name": "Overpopulation",
@@ -2933,24 +2766,20 @@
                                         "level": null,
                                         "short_description": "Find a chemical container at the Factory and hand it over to the Jaeger",
                                         "trader": "jaeger",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "factory"
                                       }
-                                    ]
-                                  },
-                                  {
-                                    "name": "Dragnet",
-                                    "id": 431,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Find a chemical container at the Factory and hand it over to the Jaeger",
-                                    "trader": "jaeger",
-                                    "children_quests": []
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": "lighthouse"
                           }
-                        ]
+                        ],
+                        "map": "shoreline"
                       },
                       {
                         "name": "The Cult - Part 1",
@@ -2967,9 +2796,11 @@
                             "level": 18,
                             "short_description": "Mark ritual spots on Woods, Customs and Shoreline",
                             "trader": "peacemaker",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "shoreline"
                       },
                       {
                         "name": "Revision - Lighthouse",
@@ -2978,10 +2809,11 @@
                         "level": null,
                         "short_description": "Mark four military vehicles on Lighthouse",
                         "trader": "peacemaker",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": "lighthouse"
                       },
                       {
-                        "name": "Revision - Streets of Tarkov",
+                        "name": "Revision - streets",
                         "id": 263,
                         "kappa": false,
                         "level": null,
@@ -2995,19 +2827,26 @@
                             "level": null,
                             "short_description": "Visit objectives",
                             "trader": "peacemaker",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "streets"
                       }
-                    ]
+                    ],
+                    "map": "shoreline"
                   }
-                ]
+                ],
+                "map": "shoreline"
               }
-            ]
+            ],
+            "map": "shoreline"
           }
-        ]
+        ],
+        "map": "customs"
       }
-    ]
+    ],
+    "map": "shoreline"
   },
   {
     "name": "Rescue the mole",
@@ -3048,7 +2887,8 @@
                     "level": 12,
                     "short_description": "Reach level 3 loyalty with Prapor",
                     "trader": "mechanic",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": ""
                   },
                   {
                     "name": "Signal - Part 2",
@@ -3073,7 +2913,8 @@
                             "level": null,
                             "short_description": "Kill Tagilla and hand his cap over to Jaeger",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "factory"
                           },
                           {
                             "name": "Back door",
@@ -3090,9 +2931,11 @@
                                 "level": 13,
                                 "short_description": "Obtain the MBT Integrated Navigation System on Reserve",
                                 "trader": "mechanic",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "reserve"
                               }
-                            ]
+                            ],
+                            "map": "reserve"
                           },
                           {
                             "name": "Exit Here",
@@ -3109,9 +2952,11 @@
                                 "level": null,
                                 "short_description": "Install 3 Wi-Fi cameras on Factory",
                                 "trader": "skier",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "factory"
                               }
-                            ]
+                            ],
+                            "map": "factory"
                           },
                           {
                             "name": "Black Swan",
@@ -3144,7 +2989,8 @@
                                         "level": null,
                                         "short_description": "Find item on Customs and transfer to Factory to stash it",
                                         "trader": "mechanic",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       },
                                       {
                                         "name": "All Is Revealed",
@@ -3153,15 +2999,20 @@
                                         "level": null,
                                         "short_description": "Collect chemical samples in a tank at the Factory and transfer to Therapist",
                                         "trader": "therapist",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": "factory"
                                       }
-                                    ]
+                                    ],
+                                    "map": "factory"
                                   }
-                                ]
+                                ],
+                                "map": "factory"
                               }
-                            ]
+                            ],
+                            "map": "factory"
                           }
-                        ]
+                        ],
+                        "map": "factory"
                       },
                       {
                         "name": "Signal - Part 3",
@@ -3186,9 +3037,11 @@
                                 "level": null,
                                 "short_description": "Mark five weatherstations on Woods",
                                 "trader": "mechanic",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "woods"
                               }
-                            ]
+                            ],
+                            "map": ""
                           },
                           {
                             "name": "The Door",
@@ -3197,13 +3050,17 @@
                             "level": null,
                             "short_description": "Find the reason for the signal jamming, install two wi-fi cameras on the streets",
                             "trader": "mechanic",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "streets"
                           }
-                        ]
+                        ],
+                        "map": "shoreline"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": "shoreline"
               },
               {
                 "name": "Gunsmith - Part 3",
@@ -3294,7 +3151,7 @@
                                                         "trader": "mechanic",
                                                         "children_quests": [
                                                           {
-                                                            "name": "Gunsmith. Part 14",
+                                                            "name": "Gunsmith - Part 14",
                                                             "id": 280,
                                                             "kappa": true,
                                                             "level": 27,
@@ -3302,7 +3159,7 @@
                                                             "trader": "mechanic",
                                                             "children_quests": [
                                                               {
-                                                                "name": "Gunsmith. Part 15",
+                                                                "name": "Gunsmith - Part 15",
                                                                 "id": 281,
                                                                 "kappa": true,
                                                                 "level": 29,
@@ -3310,7 +3167,7 @@
                                                                 "trader": "mechanic",
                                                                 "children_quests": [
                                                                   {
-                                                                    "name": "Gunsmith. Part 16",
+                                                                    "name": "Gunsmith - Part 16",
                                                                     "id": 282,
                                                                     "kappa": true,
                                                                     "level": 30,
@@ -3318,7 +3175,7 @@
                                                                     "trader": "mechanic",
                                                                     "children_quests": [
                                                                       {
-                                                                        "name": "Gunsmith. Part 17",
+                                                                        "name": "Gunsmith - Part 17",
                                                                         "id": 283,
                                                                         "kappa": true,
                                                                         "level": 31,
@@ -3334,7 +3191,7 @@
                                                                             "trader": "mechanic",
                                                                             "children_quests": [
                                                                               {
-                                                                                "name": "Gunsmith. Part 19",
+                                                                                "name": "Gunsmith - Part 19",
                                                                                 "id": 284,
                                                                                 "kappa": true,
                                                                                 "level": 36,
@@ -3350,7 +3207,7 @@
                                                                                     "trader": "mechanic",
                                                                                     "children_quests": [
                                                                                       {
-                                                                                        "name": "Gunsmith. Part 21",
+                                                                                        "name": "Gunsmith - Part 21",
                                                                                         "id": 285,
                                                                                         "kappa": true,
                                                                                         "level": 38,
@@ -3388,41 +3245,59 @@
                                                                                                         "level": null,
                                                                                                         "short_description": "Modify a PKP machine gun to comply with the given specifications",
                                                                                                         "trader": "mechanic",
-                                                                                                        "children_quests": []
+                                                                                                        "children_quests": [],
+                                                                                                        "map": ""
                                                                                                       }
-                                                                                                    ]
+                                                                                                    ],
+                                                                                                    "map": ""
                                                                                                   }
-                                                                                                ]
+                                                                                                ],
+                                                                                                "map": ""
                                                                                               }
-                                                                                            ]
+                                                                                            ],
+                                                                                            "map": ""
                                                                                           }
-                                                                                        ]
+                                                                                        ],
+                                                                                        "map": ""
                                                                                       }
-                                                                                    ]
+                                                                                    ],
+                                                                                    "map": ""
                                                                                   }
-                                                                                ]
+                                                                                ],
+                                                                                "map": ""
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "map": ""
                                                                           }
-                                                                        ]
+                                                                        ],
+                                                                        "map": ""
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "map": ""
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "map": ""
                                                               }
-                                                            ]
+                                                            ],
+                                                            "map": ""
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": ""
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": ""
                                                   }
-                                                ]
+                                                ],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": ""
                                   },
                                   {
                                     "name": "Gunsmith - Old Friend's Request",
@@ -3431,19 +3306,26 @@
                                     "level": 17,
                                     "short_description": "Modify 3 weapons",
                                     "trader": "mechanic",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           },
           {
             "name": "Farming - Part 1",
@@ -3476,7 +3358,8 @@
                         "level": null,
                         "short_description": "Kill 5 PMCs with headshot using bolt-action snipers at certain locations",
                         "trader": "mechanic",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       },
                       {
                         "name": "Farming - Part 4",
@@ -3493,7 +3376,8 @@
                             "level": 30,
                             "short_description": "Find Bundles of wires and Capacitors in raid",
                             "trader": "mechanic",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Import",
@@ -3502,7 +3386,8 @@
                             "level": 35,
                             "short_description": "Find VPX and UHF RFID in raid",
                             "trader": "mechanic",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Energy Crisis",
@@ -3511,9 +3396,11 @@
                             "level": 25,
                             "short_description": "It is necessary to mark three fuel trucks and one tanks' group on Lighthouse",
                             "trader": "mechanic",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "lighthouse"
                           }
-                        ]
+                        ],
+                        "map": ""
                       },
                       {
                         "name": "Corporate Secrets",
@@ -3530,31 +3417,14 @@
                             "level": 25,
                             "short_description": "Find data in the underground parking on Tarkova Street",
                             "trader": "mechanic",
-                            "children_quests": [
-                              {
-                                "name": "Developer's Secret. Part 1.",
-                                "id": 356,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Locate the required office on Streets of Tarkov",
-                                "trader": "mechanic",
-                                "children_quests": [
-                                  {
-                                    "name": "Developer's Secret. Part 2.",
-                                    "id": 357,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Visit hookah-place on Streets of Tarkov",
-                                    "trader": "mechanic",
-                                    "children_quests": []
-                                  }
-                                ]
-                              }
-                            ]
+                            "children_quests": [],
+                            "map": "streets"
                           }
-                        ]
+                        ],
+                        "map": "lighthouse"
                       }
-                    ]
+                    ],
+                    "map": "customs"
                   },
                   {
                     "name": "Bad habit",
@@ -3563,7 +3433,8 @@
                     "level": 12,
                     "short_description": "Find 5 packs of each of Malboro, Strike and Wilston cigarettes in raid",
                     "trader": "mechanic",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": ""
                   },
                   {
                     "name": "Broadcast - Part 1",
@@ -3578,7 +3449,7 @@
                         "id": 271,
                         "kappa": false,
                         "level": 15,
-                        "short_description": "Find a place to stream on the Streets of Tarkov",
+                        "short_description": "Find a place to stream on the streets",
                         "trader": "mechanic",
                         "children_quests": [
                           {
@@ -3586,36 +3457,17 @@
                             "id": 277,
                             "kappa": false,
                             "level": 20,
-                            "short_description": "Find a place of surveillance on the Streets of Tarkov",
+                            "short_description": "Find a place of surveillance on the streets",
                             "trader": "mechanic",
-                            "children_quests": [
-                              {
-                                "name": "Developer's Secret. Part 1.",
-                                "id": 356,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Locate the required office on Streets of Tarkov",
-                                "trader": "mechanic",
-                                "children_quests": [
-                                  {
-                                    "name": "Developer's Secret. Part 2.",
-                                    "id": 357,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Visit hookah-place on Streets of Tarkov",
-                                    "trader": "mechanic",
-                                    "children_quests": []
-                                  }
-                                ]
-                              }
-                            ]
+                            "children_quests": [],
+                            "map": "streets"
                           },
                           {
                             "name": "Broadcast - Part 3",
                             "id": 278,
                             "kappa": false,
                             "level": 20,
-                            "short_description": "Find a place to stream in an old house on the Streets of Tarkov",
+                            "short_description": "Find a place to stream in an old house on the streets",
                             "trader": "jaeger",
                             "children_quests": [
                               {
@@ -3623,7 +3475,7 @@
                                 "id": 279,
                                 "kappa": false,
                                 "level": 27,
-                                "short_description": "Locate the cultist meeting spot on Streets of Tarkov",
+                                "short_description": "Locate the cultist meeting spot on streets",
                                 "trader": "jaeger",
                                 "children_quests": [
                                   {
@@ -3633,7 +3485,8 @@
                                     "level": 40,
                                     "short_description": "Kill 10 scavs melee weapons in all locations except Labs",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   },
                                   {
                                     "name": "Broadcast - Part 5",
@@ -3642,11 +3495,14 @@
                                     "level": null,
                                     "short_description": "Find and kill the Priest",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "streets"
                               }
-                            ]
+                            ],
+                            "map": "streets"
                           },
                           {
                             "name": "Surveillance",
@@ -3661,7 +3517,7 @@
                                 "id": 356,
                                 "kappa": false,
                                 "level": null,
-                                "short_description": "Locate the required office on Streets of Tarkov",
+                                "short_description": "Locate the required office on streets",
                                 "trader": "mechanic",
                                 "children_quests": [
                                   {
@@ -3669,17 +3525,22 @@
                                     "id": 357,
                                     "kappa": false,
                                     "level": null,
-                                    "short_description": "Visit hookah-place on Streets of Tarkov",
+                                    "short_description": "Visit hookah-place on streets",
                                     "trader": "mechanic",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": "streets"
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": "lighthouse"
                   },
                   {
                     "name": "Passion for ergonomics",
@@ -3688,13 +3549,17 @@
                     "level": null,
                     "short_description": "Find the quest tool kit at Customs.",
                     "trader": "mechanic",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": "customs"
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": "factory"
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Introduction",
@@ -3703,7 +3568,8 @@
         "level": null,
         "short_description": "Find the Jaeger's letter on Woods and give it to the Mechanic",
         "trader": "mechanic",
-        "children_quests": []
+        "children_quests": [],
+        "map": "woods"
       },
       {
         "name": "Shady Contractor",
@@ -3752,11 +3618,14 @@
                             "level": null,
                             "short_description": "Plant rigs and armor plates at locations.",
                             "trader": "ragman",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "Forced Alliance",
@@ -3783,31 +3652,14 @@
                             "trader": "mechanic",
                             "children_quests": [
                               {
-                                "name": "Clear the room",
-                                "id": 708,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Kill 36 any targets in the Labyrinth",
-                                "trader": "ragman",
-                                "children_quests": []
-                              },
-                              {
                                 "name": "Confidential information",
                                 "id": 709,
                                 "kappa": false,
                                 "level": null,
                                 "short_description": "Find the information in The Labyrinth, plant a grenade in the workshop",
                                 "trader": "peacemaker",
-                                "children_quests": []
-                              },
-                              {
-                                "name": "Video camera with me",
-                                "id": 710,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Find the torture room in The Lab and bring back proof",
-                                "trader": "therapist",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": ""
                               },
                               {
                                 "name": "Iron Authority",
@@ -3816,20 +3668,14 @@
                                 "level": null,
                                 "short_description": "Find and kill the boss of The Labyrinth and his entourage.",
                                 "trader": "skier",
-                                "children_quests": []
-                              },
-                              {
-                                "name": "Keeper’s Word",
-                                "id": 712,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Place three Cultist Knives in The Labyrinth",
-                                "trader": "lightkeeper",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       },
                       {
                         "name": "Hypothesis testing",
@@ -3846,16 +3692,8 @@
                             "level": null,
                             "short_description": "Kill 36 any targets in the Labyrinth",
                             "trader": "ragman",
-                            "children_quests": []
-                          },
-                          {
-                            "name": "Confidential information",
-                            "id": 709,
-                            "kappa": false,
-                            "level": null,
-                            "short_description": "Find the information in The Labyrinth, plant a grenade in the workshop",
-                            "trader": "peacemaker",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Video camera with me",
@@ -3864,7 +3702,8 @@
                             "level": null,
                             "short_description": "Find the torture room in The Lab and bring back proof",
                             "trader": "therapist",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Iron Authority",
@@ -3873,7 +3712,8 @@
                             "level": null,
                             "short_description": "Find and kill the boss of The Labyrinth and his entourage.",
                             "trader": "skier",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "Keeper’s Word",
@@ -3882,19 +3722,26 @@
                             "level": null,
                             "short_description": "Place three Cultist Knives in The Labyrinth",
                             "trader": "lightkeeper",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": "ground_zero"
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Breathing room",
@@ -3903,7 +3750,8 @@
     "level": null,
     "short_description": "You need to assemble the UZI as per the quest instructions",
     "trader": "mechanic",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Setting priorities",
@@ -3912,7 +3760,8 @@
     "level": null,
     "short_description": "Kill PMCs while wearing special equipment.",
     "trader": "mechanic",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Only business",
@@ -3953,9 +3802,11 @@
                     "level": 15,
                     "short_description": "Visit five rooms on Reserve",
                     "trader": "ragman",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": "reserve"
                   }
-                ]
+                ],
+                "map": "reserve"
               },
               {
                 "name": "Dressed to kill",
@@ -3964,87 +3815,11 @@
                 "level": null,
                 "short_description": "Find in raid and hand over 2 Ushanka and 2 Cowboy hats",
                 "trader": "ragman",
-                "children_quests": [
-                  {
-                    "name": "Gratitude",
-                    "id": 80,
-                    "kappa": true,
-                    "level": null,
-                    "short_description": "Stash necessary items at the dock on Woods",
-                    "trader": "ragman",
-                    "children_quests": [
-                      {
-                        "name": "Hot delivery",
-                        "id": 81,
-                        "kappa": true,
-                        "level": 29,
-                        "short_description": "Stash the items on Interchange",
-                        "trader": "ragman",
-                        "children_quests": [
-                          {
-                            "name": "Scavenger",
-                            "id": 87,
-                            "kappa": true,
-                            "level": 25,
-                            "short_description": "Reach Search skill level 9",
-                            "trader": "ragman",
-                            "children_quests": []
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Sales Night",
-                        "id": 82,
-                        "kappa": true,
-                        "level": 30,
-                        "short_description": "Survive and extract from Interchange 7 times",
-                        "trader": "ragman",
-                        "children_quests": [
-                          {
-                            "name": "Supervisor",
-                            "id": 88,
-                            "kappa": true,
-                            "level": 40,
-                            "short_description": "Obtain the Goshan cash register key and hand it over to Ragman",
-                            "trader": "ragman",
-                            "children_quests": [
-                              {
-                                "name": "Long Line",
-                                "id": 92,
-                                "kappa": false,
-                                "level": 45,
-                                "short_description": "Kill 20 PMCs inside the ULTRA mall on Interchange",
-                                "trader": "ragman",
-                                "children_quests": [
-                                  {
-                                    "name": "Booze",
-                                    "id": 93,
-                                    "kappa": false,
-                                    "level": 50,
-                                    "short_description": "Find 10 vodka, 10 Bottles of Dan Jackiel, 3 purified water, and 20 beers in raid",
-                                    "trader": "ragman",
-                                    "children_quests": []
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "name": "The Huntsman path - Sellout",
-                            "id": 123,
-                            "kappa": true,
-                            "level": null,
-                            "short_description": "Eliminate Killa and hand his helmet over to Jaeger",
-                            "trader": "jaeger",
-                            "children_quests": []
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "children_quests": [],
+                "map": ""
               }
-            ]
+            ],
+            "map": "interchange"
           },
           {
             "name": "Database - Part 1",
@@ -4093,9 +3868,11 @@
                                 "level": null,
                                 "short_description": "Reach level 3 loyalty with Therapist",
                                 "trader": "ragman",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": "interchange"
                           },
                           {
                             "name": "Sew it good - Part 3",
@@ -4120,9 +3897,11 @@
                                     "level": null,
                                     "short_description": "Reach the Charisma skill level to 10",
                                     "trader": "ragman",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               },
                               {
                                 "name": "Living high is not a crime - Part 1",
@@ -4139,13 +3918,17 @@
                                     "level": null,
                                     "short_description": "Find in raid and handover 3 teapots, 2 vases, parrot, and 2 ravens",
                                     "trader": "ragman",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       },
                       {
                         "name": "The Blood of War - Part 2",
@@ -4162,30 +3945,14 @@
                             "level": 30,
                             "short_description": "Mark three fuel stashes on Woods",
                             "trader": "ragman",
-                            "children_quests": [
-                              {
-                                "name": "Living high is not a crime - Part 2",
-                                "id": 98,
-                                "kappa": true,
-                                "level": null,
-                                "short_description": "Find in raid and handover 3 teapots, 2 vases, parrot, and 2 ravens",
-                                "trader": "ragman",
-                                "children_quests": []
-                              },
-                              {
-                                "name": "Know Your Place",
-                                "id": 438,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Kill 5 enemies on Streets, transfer to Interchange and eliminate 5 enemies there",
-                                "trader": "ragman",
-                                "children_quests": []
-                              }
-                            ]
+                            "children_quests": [],
+                            "map": "woods"
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "Minibus",
@@ -4200,9 +3967,10 @@
                         "id": 289,
                         "kappa": false,
                         "level": 25,
-                        "short_description": "Locate the musician and guitar pick on Streets of Tarkov",
+                        "short_description": "Locate the musician and guitar pick on streets",
                         "trader": "ragman",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": "streets"
                       },
                       {
                         "name": "Drip-Out - Part 1",
@@ -4211,9 +3979,11 @@
                         "level": null,
                         "short_description": "Kill the raiders and bring back the WARTECH equipment",
                         "trader": "ragman",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": "interchange"
                   },
                   {
                     "name": "Gratitude",
@@ -4238,9 +4008,11 @@
                             "level": 25,
                             "short_description": "Reach Search skill level 9",
                             "trader": "ragman",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "interchange"
                       },
                       {
                         "name": "Sales Night",
@@ -4273,28 +4045,26 @@
                                     "level": 50,
                                     "short_description": "Find 10 vodka, 10 Bottles of Dan Jackiel, 3 purified water, and 20 beers in raid",
                                     "trader": "ragman",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "interchange"
                               }
-                            ]
-                          },
-                          {
-                            "name": "The Huntsman path - Sellout",
-                            "id": 123,
-                            "kappa": true,
-                            "level": null,
-                            "short_description": "Eliminate Killa and hand his helmet over to Jaeger",
-                            "trader": "jaeger",
-                            "children_quests": []
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "interchange"
                       }
-                    ]
+                    ],
+                    "map": "woods"
                   }
-                ]
+                ],
+                "map": "interchange"
               }
-            ]
+            ],
+            "map": "interchange"
           },
           {
             "name": "Break the Deal",
@@ -4303,9 +4073,11 @@
             "level": null,
             "short_description": "To plant the necessary equipment at Customs.",
             "trader": "ragman",
-            "children_quests": []
+            "children_quests": [],
+            "map": "customs"
           }
-        ]
+        ],
+        "map": "interchange"
       },
       {
         "name": "Big sale",
@@ -4322,16 +4094,18 @@
             "level": null,
             "short_description": "Locate Ragman's SUV on Shoreline",
             "trader": "ragman",
-            "children_quests": []
+            "children_quests": [],
+            "map": "shoreline"
           }
-        ]
+        ],
+        "map": "interchange"
       },
       {
         "name": "Audit",
         "id": 259,
         "kappa": false,
         "level": 17,
-        "short_description": "Obtain and hand over the financial records on Streets of Tarkov",
+        "short_description": "Obtain and hand over the financial records on streets",
         "trader": "ragman",
         "children_quests": [
           {
@@ -4339,7 +4113,7 @@
             "id": 269,
             "kappa": false,
             "level": 20,
-            "short_description": "Locate the balletmeister's apartment on Streets of Tarkov",
+            "short_description": "Locate the balletmeister's apartment on streets",
             "trader": "ragman",
             "children_quests": [
               {
@@ -4347,7 +4121,7 @@
                 "id": 361,
                 "kappa": false,
                 "level": 33,
-                "short_description": "Kill opponents and pawn items on the Streets of Tarkov.",
+                "short_description": "Kill opponents and pawn items on the streets.",
                 "trader": "ragman",
                 "children_quests": [
                   {
@@ -4357,13 +4131,17 @@
                     "level": null,
                     "short_description": "Kill the rogues and bring back the LBT equipment",
                     "trader": "ragman",
-                    "children_quests": []
+                    "children_quests": [],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": "streets"
               }
-            ]
+            ],
+            "map": "streets"
           }
-        ]
+        ],
+        "map": "streets"
       },
       {
         "name": "Know Your Place",
@@ -4372,7 +4150,8 @@
         "level": null,
         "short_description": "Kill 5 enemies on Streets, transfer to Interchange and eliminate 5 enemies there",
         "trader": "ragman",
-        "children_quests": []
+        "children_quests": [],
+        "map": ""
       },
       {
         "name": "The Invisible Hand",
@@ -4413,17 +4192,23 @@
                         "level": null,
                         "short_description": "Hand over 15 Physical Bitcoins",
                         "trader": "ragman",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "New beginning",
@@ -4432,7 +4217,8 @@
     "level": 55,
     "short_description": "Collect the figurines and eliminate 50 Scavs",
     "trader": "ragman",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Acquaintance",
@@ -4481,7 +4267,8 @@
                         "level": null,
                         "short_description": "Eliminate 2 PMCs with headshots while having tremor",
                         "trader": "jaeger",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       },
                       {
                         "name": "The survivalist path - Tough guy",
@@ -4514,11 +4301,14 @@
                                     "level": null,
                                     "short_description": "Kill 15 scavs on Woods while under any stimulant effect",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": "woods"
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           },
                           {
                             "name": "Courtesy visit",
@@ -4551,20 +4341,14 @@
                                         "level": null,
                                         "short_description": "Kill Scavs on Lighthouse and Shoreline using the transition.",
                                         "trader": "jaeger",
-                                        "children_quests": []
+                                        "children_quests": [],
+                                        "map": ""
                                       }
-                                    ]
-                                  },
-                                  {
-                                    "name": "The duty of a forester",
-                                    "id": 448,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Kill Scavs on Lighthouse and Shoreline using the transition.",
-                                    "trader": "jaeger",
-                                    "children_quests": []
+                                    ],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "shoreline"
                               },
                               {
                                 "name": "The Hermit",
@@ -4573,183 +4357,20 @@
                                 "level": 20,
                                 "short_description": "Find and obtain the message for Jaeger",
                                 "trader": "jaeger",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "lighthouse"
                               }
-                            ]
-                          },
-                          {
-                            "name": "Huntsman path - Secured perimeter",
-                            "id": 109,
-                            "kappa": true,
-                            "level": null,
-                            "short_description": "Eliminate 6 PMСs on Factory in the office area",
-                            "trader": "jaeger",
-                            "children_quests": [
-                              {
-                                "name": "The Huntsman path - Trophy",
-                                "id": 118,
-                                "kappa": true,
-                                "level": null,
-                                "short_description": "Kill Reshala and hand his golden TT over",
-                                "trader": "jaeger",
-                                "children_quests": [
-                                  {
-                                    "name": "The Huntsman path - Justice",
-                                    "id": 122,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Kill 3 scavs dressed in police uniform (Reshala's bodyguards)",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  }
-                                ]
-                              },
-                              {
-                                "name": "The Huntsman path - Forest cleaning",
-                                "id": 121,
-                                "kappa": true,
-                                "level": null,
-                                "short_description": "Kill 30 scavs all over the Tarkov territory",
-                                "trader": "jaeger",
-                                "children_quests": [
-                                  {
-                                    "name": "The Huntsman path - Controller",
-                                    "id": 124,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Kill 2 PMCs blinded with the flashbang",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  },
-                                  {
-                                    "name": "The Huntsman path - Evil watchman",
-                                    "id": 125,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Kill 5 PMCs in the Dorms area on Customs",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  },
-                                  {
-                                    "name": "The Huntsman Path - Administrator",
-                                    "id": 264,
-                                    "kappa": false,
-                                    "level": null,
-                                    "short_description": "Kill 20 Skavs in a hotel on Tarkov Streets and signal with a yellow signal flare",
-                                    "trader": "jaeger",
-                                    "children_quests": [
-                                      {
-                                        "name": "The Huntsman Path - Crooked Cop",
-                                        "id": 364,
-                                        "kappa": false,
-                                        "level": null,
-                                        "short_description": "Kill Kolontai and his guards",
-                                        "trader": "jaeger",
-                                        "children_quests": []
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "name": "Claustrophobia",
-                                    "id": 426,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Elinimate 5 targets with Shotgun in Factory's cellars",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  },
-                                  {
-                                    "name": "The Huntsman path - Sellout",
-                                    "id": 123,
-                                    "kappa": true,
-                                    "level": null,
-                                    "short_description": "Eliminate Killa and hand his helmet over to Jaeger",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  },
-                                  {
-                                    "name": "Trophies",
-                                    "id": 250,
-                                    "kappa": false,
-                                    "level": 55,
-                                    "short_description": "Hand over 20 USEC and 20 BEAR PMC dogtags of Level 50+ found in raid",
-                                    "trader": "peacemaker",
-                                    "children_quests": [
-                                      {
-                                        "name": "Special Equipment",
-                                        "id": 251,
-                                        "kappa": false,
-                                        "level": 60,
-                                        "short_description": "Find items in raid and hand them over to Peacekeeper",
-                                        "trader": "peacemaker",
-                                        "children_quests": []
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "name": "Hunter",
-                                "id": 133,
-                                "kappa": false,
-                                "level": null,
-                                "short_description": "Kill Shturman 20 times",
-                                "trader": "jaeger",
-                                "children_quests": []
-                              },
-                              {
-                                "name": "The Huntsman Path - Outcasts",
-                                "id": 233,
-                                "kappa": true,
-                                "level": 22,
-                                "short_description": "Kill 10 Rogue USEC operatives",
-                                "trader": "jaeger",
-                                "children_quests": []
-                              },
-                              {
-                                "name": "The Huntsman path - Woods Keeper",
-                                "id": 127,
-                                "kappa": true,
-                                "level": null,
-                                "short_description": "Kill Shturman and hand his key",
-                                "trader": "jaeger",
-                                "children_quests": [
-                                  {
-                                    "name": "Hunting trip",
-                                    "id": 129,
-                                    "kappa": true,
-                                    "level": 33,
-                                    "short_description": "Eliminate Shturman from over 75+ meters with a Remington M700 with a scope",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  },
-                                  {
-                                    "name": "Stray Dogs",
-                                    "id": 254,
-                                    "kappa": true,
-                                    "level": 35,
-                                    "short_description": "Eliminate Big Pipe, Death Knight and Birdeye",
-                                    "trader": "jaeger",
-                                    "children_quests": []
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "name": "The Hermit",
-                            "id": 234,
-                            "kappa": true,
-                            "level": 20,
-                            "short_description": "Find and obtain the message for Jaeger",
-                            "trader": "jaeger",
-                            "children_quests": []
+                            ],
+                            "map": "shoreline"
                           }
-                        ]
+                        ],
+                        "map": "woods"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               },
               {
                 "name": "The Delicious Sausage",
@@ -4790,13 +4411,17 @@
                                 "level": 30,
                                 "short_description": "Kill 6 raiders",
                                 "trader": "jaeger",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": "reserve"
                           }
-                        ]
+                        ],
+                        "map": "reserve"
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "Cease Fire!",
@@ -4811,11 +4436,13 @@
                         "id": 316,
                         "kappa": false,
                         "level": null,
-                        "short_description": "Find the paramedic's smartphone on Streets of Tarkov and extract (in one raid)",
+                        "short_description": "Find the paramedic's smartphone on streets and extract (in one raid)",
                         "trader": "therapist",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": "streets"
                       }
-                    ]
+                    ],
+                    "map": "streets"
                   },
                   {
                     "name": "Thirsty - Hounds",
@@ -4856,21 +4483,29 @@
                                     "level": null,
                                     "short_description": "Find and hand over medical supplies for Therapist",
                                     "trader": "therapist",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": "shoreline"
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": "shoreline"
                   }
-                ]
+                ],
+                "map": "streets"
               }
-            ]
+            ],
+            "map": "woods"
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "The Tarkov shooter - Part 1",
@@ -4935,15 +4570,20 @@
                                     "level": null,
                                     "short_description": "Kill 3 PMCs with a bolt-action rifle headshot in a single life",
                                     "trader": "jaeger",
-                                    "children_quests": []
+                                    "children_quests": [],
+                                    "map": ""
                                   }
-                                ]
+                                ],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       }
-                    ]
+                    ],
+                    "map": ""
                   },
                   {
                     "name": "Huntsman path - Secured perimeter",
@@ -4968,9 +4608,11 @@
                             "level": null,
                             "short_description": "Kill 3 scavs dressed in police uniform (Reshala's bodyguards)",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": "customs"
                       },
                       {
                         "name": "The Huntsman path - Forest cleaning",
@@ -4987,7 +4629,8 @@
                             "level": null,
                             "short_description": "Kill 2 PMCs blinded with the flashbang",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": ""
                           },
                           {
                             "name": "The Huntsman path - Evil watchman",
@@ -4996,7 +4639,8 @@
                             "level": null,
                             "short_description": "Kill 5 PMCs in the Dorms area on Customs",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "customs"
                           },
                           {
                             "name": "The Huntsman Path - Administrator",
@@ -5013,9 +4657,11 @@
                                 "level": null,
                                 "short_description": "Kill Kolontai and his guards",
                                 "trader": "jaeger",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": "streets"
                               }
-                            ]
+                            ],
+                            "map": "streets"
                           },
                           {
                             "name": "Claustrophobia",
@@ -5024,7 +4670,8 @@
                             "level": null,
                             "short_description": "Elinimate 5 targets with Shotgun in Factory's cellars",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "factory"
                           },
                           {
                             "name": "The Huntsman path - Sellout",
@@ -5033,7 +4680,8 @@
                             "level": null,
                             "short_description": "Eliminate Killa and hand his helmet over to Jaeger",
                             "trader": "jaeger",
-                            "children_quests": []
+                            "children_quests": [],
+                            "map": "interchange"
                           },
                           {
                             "name": "Trophies",
@@ -5050,11 +4698,14 @@
                                 "level": 60,
                                 "short_description": "Find items in raid and hand them over to Peacekeeper",
                                 "trader": "peacemaker",
-                                "children_quests": []
+                                "children_quests": [],
+                                "map": ""
                               }
-                            ]
+                            ],
+                            "map": ""
                           }
-                        ]
+                        ],
+                        "map": ""
                       },
                       {
                         "name": "Hunter",
@@ -5063,7 +4714,8 @@
                         "level": null,
                         "short_description": "Kill Shturman 20 times",
                         "trader": "jaeger",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": "woods"
                       },
                       {
                         "name": "The Huntsman Path - Outcasts",
@@ -5072,43 +4724,20 @@
                         "level": 22,
                         "short_description": "Kill 10 Rogue USEC operatives",
                         "trader": "jaeger",
-                        "children_quests": []
-                      },
-                      {
-                        "name": "The Huntsman path - Woods Keeper",
-                        "id": 127,
-                        "kappa": true,
-                        "level": null,
-                        "short_description": "Kill Shturman and hand his key",
-                        "trader": "jaeger",
-                        "children_quests": [
-                          {
-                            "name": "Hunting trip",
-                            "id": 129,
-                            "kappa": true,
-                            "level": 33,
-                            "short_description": "Eliminate Shturman from over 75+ meters with a Remington M700 with a scope",
-                            "trader": "jaeger",
-                            "children_quests": []
-                          },
-                          {
-                            "name": "Stray Dogs",
-                            "id": 254,
-                            "kappa": true,
-                            "level": 35,
-                            "short_description": "Eliminate Big Pipe, Death Knight and Birdeye",
-                            "trader": "jaeger",
-                            "children_quests": []
-                          }
-                        ]
+                        "children_quests": [],
+                        "map": "lighthouse"
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Rough Tarkov",
@@ -5125,9 +4754,11 @@
             "level": null,
             "short_description": "Locate tripwire installation spots on Customs and Factory",
             "trader": "jaeger",
-            "children_quests": []
+            "children_quests": [],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Shady business",
@@ -5144,9 +4775,11 @@
             "level": 25,
             "short_description": "Find in raid 2 CMS and a Portable defibrillator",
             "trader": "jaeger",
-            "children_quests": []
+            "children_quests": [],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       },
       {
         "name": "Work Smarter",
@@ -5163,9 +4796,11 @@
             "level": null,
             "short_description": "Kill Scavs and hand over the items",
             "trader": "jaeger",
-            "children_quests": []
+            "children_quests": [],
+            "map": "customs"
           }
-        ]
+        ],
+        "map": "customs"
       },
       {
         "name": "Fight back",
@@ -5206,7 +4841,8 @@
                         "level": null,
                         "short_description": "Kill 10 targets with special grenades.",
                         "trader": "jaeger",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       },
                       {
                         "name": "Staff Shortage",
@@ -5215,17 +4851,23 @@
                         "level": null,
                         "short_description": "Kill a Partisan and 10 PMCs.",
                         "trader": "skier",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Collector",
@@ -5234,7 +4876,8 @@
     "level": null,
     "short_description": "Find very rare items and give them to the Fence",
     "trader": "fence",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "The Choice",
@@ -5243,7 +4886,8 @@
     "level": 50,
     "short_description": "Hand over Epsilon secured container to the Fence",
     "trader": "fence",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Establish Contact",
@@ -5292,17 +4936,23 @@
                         "level": null,
                         "short_description": "To lay the Knives of Sectarians in marked circles",
                         "trader": "fence",
-                        "children_quests": []
+                        "children_quests": [],
+                        "map": ""
                       }
-                    ]
+                    ],
+                    "map": ""
                   }
-                ]
+                ],
+                "map": ""
               }
-            ]
+            ],
+            "map": ""
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   },
   {
     "name": "Is this a reference",
@@ -5311,7 +4961,8 @@
     "level": 25,
     "short_description": "Install surveillance cameras in specific locations",
     "trader": "fence",
-    "children_quests": []
+    "children_quests": [],
+    "map": ""
   },
   {
     "name": "Lightkeeper unlocking",
@@ -5386,20 +5037,11 @@
                                     "trader": "mechanic",
                                     "children_quests": [
                                       {
-                                        "name": "Top Secret",
-                                        "id": 247,
-                                        "kappa": false,
-                                        "level": null,
-                                        "short_description": "Find the military HDD on Lighthouse and hand it over to Skier",
-                                        "trader": "skier",
-                                        "children_quests": []
-                                      },
-                                      {
                                         "name": "Information Source",
                                         "id": 303,
                                         "kappa": false,
                                         "level": null,
-                                        "short_description": "Extract via V-exit. Mark two vehicles on Streets of Tarkov",
+                                        "short_description": "Extract via V-exit. Mark two vehicles on streets",
                                         "trader": "lightkeeper",
                                         "children_quests": [
                                           {
@@ -5473,23 +5115,32 @@
                                                                             "level": null,
                                                                             "short_description": "Kill 50 PMC. Mark the cargo area",
                                                                             "trader": "lightkeeper",
-                                                                            "children_quests": []
+                                                                            "children_quests": [],
+                                                                            "map": "streets"
                                                                           }
-                                                                        ]
+                                                                        ],
+                                                                        "map": ""
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "map": "streets"
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "map": ""
                                                               }
-                                                            ]
+                                                            ],
+                                                            "map": "interchange"
                                                           }
-                                                        ]
+                                                        ],
+                                                        "map": "reserve"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "map": "woods"
                                                   }
-                                                ]
+                                                ],
+                                                "map": ""
                                               }
-                                            ]
+                                            ],
+                                            "map": "streets"
                                           },
                                           {
                                             "name": "Order from outside",
@@ -5498,26 +5149,37 @@
                                             "level": null,
                                             "short_description": "Find the EW system and plant it.",
                                             "trader": "lightkeeper",
-                                            "children_quests": []
+                                            "children_quests": [],
+                                            "map": ""
                                           }
-                                        ]
+                                        ],
+                                        "map": ""
                                       }
-                                    ]
+                                    ],
+                                    "map": "lighthouse"
                                   }
-                                ]
+                                ],
+                                "map": "lighthouse"
                               }
-                            ]
+                            ],
+                            "map": "lighthouse"
                           }
-                        ]
+                        ],
+                        "map": "lab"
                       }
-                    ]
+                    ],
+                    "map": "woods"
                   }
-                ]
+                ],
+                "map": "lighthouse"
               }
-            ]
+            ],
+            "map": "lighthouse"
           }
-        ]
+        ],
+        "map": ""
       }
-    ]
+    ],
+    "map": ""
   }
 ]

@@ -16,6 +16,7 @@ public class QuestTrackerViewModel : ViewModelBase
     private QuestViewModel? _selectedQuest;
     private string _questsLabel = string.Empty;
     private string _kappaLabel = string.Empty;
+    private CancellationTokenSource? _searchDebounceToken;
 
     public ObservableCollection<QuestViewModel> FilteredQuests => _filteredQuests;
 
@@ -26,7 +27,7 @@ public class QuestTrackerViewModel : ViewModelBase
         {
             if (SetProperty(ref _hideCompleted, value))
             {
-                RefreshFilteredQuests();
+                _ = RefreshFilteredQuests();
             }
         }
     }
@@ -50,7 +51,7 @@ public class QuestTrackerViewModel : ViewModelBase
         {
             if (SetProperty(ref _searchText, value))
             {
-                RefreshFilteredQuests();
+                DebounceSearch();
             }
         }
     }
@@ -83,15 +84,15 @@ public class QuestTrackerViewModel : ViewModelBase
         ToggleCompletionCommand = new RelayCommand(ExecuteToggleCompletion);
         TogglePinCommand = new RelayCommand(ExecuteTogglePin);
 
-        LoadQuests();
+        _ = LoadQuests();
     }
 
-    private void LoadQuests()
+    private async Task LoadQuests()
     {
         _quests.Clear();
         _filteredQuests.Clear();
 
-        var questsData = _questService.LoadQuests();
+        var questsData = await _questService.LoadQuests();
         var tracker = _questService.LoadQuestProgress();
 
         foreach (var quest in questsData)
@@ -109,41 +110,70 @@ public class QuestTrackerViewModel : ViewModelBase
             var viewModel = new QuestViewModel(quest);
             viewModel.CompletionChanged += OnQuestCompletionChanged;
             viewModel.PinStatusChanged += OnQuestPinStatusChanged;
+            
+            if (quest.IsPinned)
+            {
+                viewModel.NotifyIsPinnedLoaded();
+            }
+            
             _quests.Add(viewModel);
         }
 
         RefreshFilteredQuests();
     }
 
-    private void RefreshFilteredQuests()
+    private async Task RefreshFilteredQuests(CancellationToken cancellationToken = default)
     {
-        _filteredQuests.Clear();
-
-        var filtered = _quests.AsEnumerable();
-
-        if (HideCompleted)
+        try
         {
-            filtered = filtered.Where(q => !q.IsCompleted);
-        }
+            var filtered = _quests.AsEnumerable();
 
-        if (OnlyKappa)
+            if (HideCompleted)
+            {
+                filtered = filtered.Where(q => !q.IsCompleted);
+            }
+
+            if (OnlyKappa)
+            {
+                filtered = filtered.Where(q => q.Kappa);
+            }
+
+            if (!string.IsNullOrWhiteSpace(SearchText))
+            {
+                var searchLower = SearchText.ToLower();
+                filtered = filtered.Where(q => q.Name.ToLower().Contains(searchLower));
+            }
+
+            var results = filtered.OrderBy(q => q.Name).ToList();
+
+            cancellationToken.ThrowIfCancellationRequested();
+
+            _filteredQuests.Clear();
+            foreach (var quest in results)
+            {
+                _filteredQuests.Add(quest);
+            }
+
+            UpdateLabels();
+        }
+        catch (OperationCanceledException)
         {
-            filtered = filtered.Where(q => q.Kappa);
         }
+    }
 
-        if (!string.IsNullOrWhiteSpace(SearchText))
+    private void DebounceSearch()
+    {
+        _searchDebounceToken?.Cancel();
+        _searchDebounceToken = new CancellationTokenSource();
+        var token = _searchDebounceToken.Token;
+
+        _ = Task.Delay(300, token).ContinueWith(async _ =>
         {
-            var searchLower = SearchText.ToLower();
-            filtered = filtered.Where(q => q.Name.ToLower().Contains(searchLower) || 
-                                           q.ShortDescription.ToLower().Contains(searchLower));
-        }
-
-        foreach (var quest in filtered.OrderBy(q => q.Name))
-        {
-            _filteredQuests.Add(quest);
-        }
-
-        UpdateLabels();
+            if (!token.IsCancellationRequested)
+            {
+                await RefreshFilteredQuests(token);
+            }
+        }, TaskScheduler.FromCurrentSynchronizationContext());
     }
 
     private void UpdateLabels()
@@ -223,6 +253,10 @@ public class QuestViewModel : ViewModelBase
             if (SetProperty(ref _isCompleted, value))
             {
                 _quest.IsCompleted = value;
+                if (value && _isPinned)
+                {
+                    IsPinned = false;
+                }
                 CompletionChanged?.Invoke(this);
             }
         }
@@ -244,11 +278,17 @@ public class QuestViewModel : ViewModelBase
     public string Name => _quest.Name;
     public string ShortDescription => _quest.ShortDescription;
     public bool Kappa => _quest.Kappa;
+    public string Map => _quest.Map;
 
     public QuestViewModel(Quest quest)
     {
         _quest = quest;
         _isCompleted = quest.IsCompleted;
         _isPinned = quest.IsPinned;
+    }
+
+    public void NotifyIsPinnedLoaded()
+    {
+        OnPropertyChanged(nameof(IsPinned));
     }
 }

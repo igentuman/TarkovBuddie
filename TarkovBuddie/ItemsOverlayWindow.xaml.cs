@@ -25,6 +25,8 @@ public partial class ItemsOverlayWindow : Window
     private bool _isDragging;
     private System.Windows.Point _lastMousePosition;
 
+    public event Action? VisibilityChanged;
+
     public ObservableCollection<ItemViewModel> PinnedItems => _pinnedItems;
 
     public ItemsOverlayWindow(ItemsTrackerViewModel viewModel)
@@ -57,6 +59,8 @@ public partial class ItemsOverlayWindow : Window
                 notifyProperty.PropertyChanged += Item_PropertyChanged;
             }
         }
+        
+        VisibilityChanged?.Invoke();
     }
 
     private void EnableClickThrough()
@@ -83,6 +87,8 @@ public partial class ItemsOverlayWindow : Window
                 notifyProperty.PropertyChanged -= Item_PropertyChanged;
             }
         }
+        
+        VisibilityChanged?.Invoke();
     }
 
     private void FilteredItems_CollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)

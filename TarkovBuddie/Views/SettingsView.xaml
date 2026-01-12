@@ -62,7 +62,7 @@
             <!-- Language Tab -->
             <TabItem Header="Language" Padding="5">
                 <StackPanel Margin="10" VerticalAlignment="Top">
-                    <TextBlock Text="Language Settings" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
+                    <TextBlock Text="Language Settings (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
                         <TextBlock Text="Select Language:" VerticalAlignment="Center" Margin="0,0,10,0" Width="120"/>
                         <ComboBox ItemsSource="{Binding AvailableLanguages}" SelectedItem="{Binding SelectedLanguage}" Width="150" Padding="5"/>
@@ -74,7 +74,7 @@
             <!-- Overlay Tab -->
             <TabItem Header="Overlay" Padding="5">
                 <StackPanel Margin="10" VerticalAlignment="Top">
-                    <TextBlock Text="Overlay Settings" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
+                    <TextBlock Text="Overlay Settings (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
                     <TextBlock Text="Overlay Transparency:" Margin="0,0,0,5"/>
                     <Grid Margin="0,0,0,10">
                         <Grid.ColumnDefinitions>
@@ -95,7 +95,7 @@
             <TabItem Header="File Paths" Padding="5">
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel Margin="10">
-                        <TextBlock Text="Data File Paths" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
+                        <TextBlock Text="Data File Paths (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
                         
                         <!-- Quest Data Path -->
                         <TextBlock Text="Quest Data Directory:" Margin="0,0,0,5"/>
