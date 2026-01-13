@@ -1,4 +1,4 @@
-# TarkovBuddie Repository
+# TARKIT Repository
 
 ## Project Overview
 
@@ -17,18 +17,18 @@ The application works purely as an external helper tool and does **not** interac
 ## Project Structure
 
 ```
-TarkovBuddie/
-├── TarkovBuddie/                    # Main application project
+TARKIT/
+├── TARKIT/                    # Main application project
 │   ├── App.xaml                     # Application root XAML
 │   ├── App.xaml.cs                  # Application code-behind
 │   ├── MainWindow.xaml              # Main window UI definition
 │   ├── MainWindow.xaml.cs           # Main window logic
 │   ├── AssemblyInfo.cs              # Assembly metadata
-│   ├── TarkovBuddie.csproj          # Project file
+│   ├── TARKIT.csproj          # Project file
 │   ├── README.md                    # Feature documentation
 │   ├── bin/                         # Build output
 │   └── obj/                         # Intermediate build files
-├── TarkovBuddie.sln                 # Visual Studio solution file
+├── TARKIT.sln                 # Visual Studio solution file
 └── .zencoder/                       # Zencoder configuration
 ```
 

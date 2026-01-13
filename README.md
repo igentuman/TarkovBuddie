@@ -1,19 +1,21 @@
-# Tarkov Buddie
+# TARKIT - EFT helper
 
 **Offline companion application for Escape from Tarkov**
 
-Tarkov Buddie is a lightweight C# desktop application designed to assist Escape from Tarkov players during raids.  
+TARKIT is a lightweight C# desktop application designed to assist Escape from Tarkov players during raids.  
 It provides map overlays, quest tracking, and item tracking through transparent topmost windows and configurable hotkeys.
 
-> ⚠️ Tarkov Buddie does **not** interact with game memory or network traffic. It works purely as an external helper tool.
+> ⚠️ TARKIT does **not** interact with game memory or network traffic. It works purely as an external helper tool.
 
-![settings](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/settings.png?raw=true)
+> Formerly know as "Tarkov Buddie", was renamed to TARKIT.
 
-![items](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/items.png?raw=true)
+![settings](https://github.com/igentuman/TARKIT/blob/master/screenshots/settings.png?raw=true)
 
-![quests](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/quests.png?raw=true)
+![items](https://github.com/igentuman/TARKIT/blob/master/screenshots/items.png?raw=true)
 
-![overlay](https://github.com/igentuman/TarkovBuddie/blob/master/screenshots/overlay.png?raw=true)
+![quests](https://github.com/igentuman/TARKIT/blob/master/screenshots/quests.png?raw=true)
+
+![overlay](https://github.com/igentuman/TARKIT/blob/master/screenshots/overlay.png?raw=true)
 
 ---
 
@@ -33,7 +35,7 @@ It provides map overlays, quest tracking, and item tracking through transparent 
 
 ### 2. Quest Tracker
 
-Tarkov Buddie supports **two independent quest systems**:
+TARKIT supports **two independent quest systems**:
 - **Trader quests**
 - **Main storyline quests** (introduced in Escape from Tarkov 1.0)
 
@@ -210,6 +212,6 @@ Stored locally:
 
 ## Disclaimer
 
-Tarkov Buddie is a third-party companion tool and is not affiliated with or endorsed by Battlestate Games.
+TARKIT is a third-party companion tool and is not affiliated with or endorsed by Battlestate Games.
 
 Use at your own discretion.
