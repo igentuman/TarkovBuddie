@@ -101,6 +101,19 @@ public class SettingsService
         return _currentSettings.Language;
     }
 
+    public string GetLangCode()
+    {
+        switch (_currentSettings.Language)
+        {
+           case   "Russian":
+               return "ru";
+           case  "English":
+               return "en";
+           default:
+               return "en";
+        }
+    }
+
     public bool ValidatePath(string path)
     {
         if (string.IsNullOrWhiteSpace(path))

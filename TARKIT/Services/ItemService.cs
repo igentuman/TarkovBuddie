@@ -32,10 +32,12 @@ public class ItemService
     public List<Item> LoadItems()
     {
         var items = new List<Item>();
+        var language = _settingsService.GetLangCode();
         var itemsJsonPath = Path.Combine(
             Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) ?? "",
             "data",
-            "items_grouped.json"
+            language,
+            "items.json"
         );
 
         if (!File.Exists(itemsJsonPath))

@@ -32,10 +32,13 @@ public class QuestService
     public async Task<List<Quest>> LoadQuests()
     {
         var quests = new List<Quest>();
+        var language = _settingsService.GetLangCode();
+
         var questsJsonPath = Path.Combine(
             Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) ?? "",
             "data",
-            "raw_quests.json"
+            language,
+            "quests.json"
         );
 
         if (!File.Exists(questsJsonPath))

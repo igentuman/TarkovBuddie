@@ -1,0 +1,1479 @@
+﻿[
+  {
+    "total_qty": 3,
+    "id": "544fb45d4bdc2dee738b4568",
+    "name": "Аптечка Salewa First Aid Kit",
+    "name_short": "Salewa",
+    "icon": "salewa"
+  },
+  {
+    "total_qty": 3,
+    "id": "5bc9b355d4351e6d1509862a",
+    "name": "Оружейная смазка #FireKlean",
+    "name_short": "#FireKlean",
+    "icon": "fireklean"
+  },
+  {
+    "total_qty": 2,
+    "id": "545cdb794bdc2d3a198b456a",
+    "name": "Бронежилет 6Б43 \"Забрало-Ш\" (Флора Цифра)",
+    "name_short": "6Б43",
+    "icon": "6b43"
+  },
+  {
+    "total_qty": 2,
+    "id": "5a7c4850e899ef00150be885",
+    "name": "Общевойсковой шлем 6Б47 \"Ратник-БШ\" (Олива)",
+    "name_short": "6Б47",
+    "icon": "6b47"
+  },
+  {
+    "total_qty": 2,
+    "id": "5d03794386f77420415576f5",
+    "name": "Военный аккумулятор 6-СТЭН-140-М",
+    "name_short": "АКБ танковый",
+    "icon": "tank_battery"
+  },
+  {
+    "total_qty": 1,
+    "id": "6389c85357baa773a825b356",
+    "name": "Передовой преобразователь тока",
+    "name_short": "ППТ",
+    "icon": "mcc"
+  },
+  {
+    "total_qty": 3,
+    "id": "55d482194bdc2d1d4e8b456b",
+    "name": "Магазин 6Л31 на 60 патронов 5.45x39 для АК-74",
+    "name_short": "6Л31",
+    "icon": "6l31"
+  },
+  {
+    "total_qty": 4,
+    "id": "59faf98186f774067b6be103",
+    "name": "Щелочное средство для промывки теплообменных поверхностей",
+    "name_short": "Щелочь",
+    "icon": "alkali"
+  },
+  {
+    "total_qty": 2,
+    "id": "5d1b32c186f774252167a530",
+    "name": "Аналоговый термометр",
+    "name_short": "Терм.",
+    "icon": "therm."
+  },
+  {
+    "total_qty": 15,
+    "id": "5e2af4d286f7746d4159f07a",
+    "name": "Арамидная ткань",
+    "name_short": "Арамид",
+    "icon": "aramid"
+  },
+  {
+    "total_qty": 2,
+    "id": "544fb25a4bdc2dfb738b4567",
+    "name": "Бинт стерильный",
+    "name_short": "Бинт",
+    "icon": "bandage"
+  },
+  {
+    "total_qty": 2,
+    "id": "62a0a098de7ac8199358053b",
+    "name": "Шило",
+    "name_short": "Шило",
+    "icon": "awl"
+  },
+  {
+    "total_qty": 2,
+    "id": "62a09e73af34e73a266d932a",
+    "name": "Книга рецептов BakeEzy",
+    "name_short": "BakeEzy",
+    "icon": "bakeezy"
+  },
+  {
+    "total_qty": 2,
+    "id": "6259b864ebedf17603599e88",
+    "name": "Ружье Benelli M3 Super 90 12к",
+    "name_short": "M3 Super 90",
+    "icon": "m3_super_90"
+  },
+  {
+    "total_qty": 2,
+    "id": "5cadc190ae921500103bb3b6",
+    "name": "Пистолет Beretta M9A3 9x19",
+    "name_short": "M9A3",
+    "icon": "m9a3"
+  },
+  {
+    "total_qty": 2,
+    "id": "5648a69d4bdc2ded0b8b457b",
+    "name": "Разгрузочный жилет \"BlackRock Chest Rig\" (Серый)",
+    "name_short": "BlackRock",
+    "icon": "blackrock"
+  },
+  {
+    "total_qty": 4,
+    "id": "5ab8e79e86f7742d8b372e78",
+    "name": "Бронежилет БНТИ \"Гжель-К\"",
+    "name_short": "Гжель-К",
+    "icon": "gzhel-k"
+  },
+  {
+    "total_qty": 1,
+    "id": "59e7635f86f7742cbf2c1095",
+    "name": "Бронежилет БНТИ \"Модуль-3М\"",
+    "name_short": "Модуль-3М",
+    "icon": "module-3m"
+  },
+  {
+    "total_qty": 1,
+    "id": "591094e086f7747caa7bb2ef",
+    "name": "Набор для ремонта бронежилетов",
+    "name_short": "Ремкомплект для брони",
+    "icon": "armor_repair_kit"
+  },
+  {
+    "total_qty": 59,
+    "id": "57347c5b245977448d35f6e1",
+    "name": "Болты",
+    "name_short": "Болты",
+    "icon": "bolts"
+  },
+  {
+    "total_qty": 25,
+    "id": "5d403f9186f7743cac3f229b",
+    "name": "Бутылка виски Dan Jackiel",
+    "name_short": "Виски",
+    "icon": "whiskey"
+  },
+  {
+    "total_qty": 22,
+    "id": "5d1b376e86f774252519444e",
+    "name": "Бутылка самогона \"Лютый Топорист\"",
+    "name_short": "Самогон",
+    "icon": "moonshine"
+  },
+  {
+    "total_qty": 15,
+    "id": "62a0a043cf4a99369e2624a5",
+    "name": "Банка с витаминами OLOLO",
+    "name_short": "Витамины",
+    "icon": "vitamins"
+  },
+  {
+    "total_qty": 20,
+    "id": "62a09f32621468534a797acb",
+    "name": "Бутылка пива \"Певко светлое\"",
+    "name_short": "Певко",
+    "icon": "pevko"
+  },
+  {
+    "total_qty": 10,
+    "id": "59e3606886f77417674759a5",
+    "name": "Бутылка физраствора",
+    "name_short": "NaCl",
+    "icon": "nacl"
+  },
+  {
+    "total_qty": 6,
+    "id": "59e3639286f7741777737013",
+    "name": "Бронзовый лев",
+    "name_short": "Лев",
+    "icon": "lion"
+  },
+  {
+    "total_qty": 1,
+    "id": "619cbfeb6b8a1b37a54eebfa",
+    "name": "Кабелерез Bulbex",
+    "name_short": "Bulbex",
+    "icon": "bulbex"
+  },
+  {
+    "total_qty": 102,
+    "id": "5c06779c86f77426e00dd782",
+    "name": "Пучок проводов",
+    "name_short": "Провода",
+    "icon": "wires"
+  },
+  {
+    "total_qty": 15,
+    "id": "57347d7224597744596b4e72",
+    "name": "Банка тушеной говядины (Маленькая)",
+    "name_short": "Тушёнка",
+    "icon": "tushonka"
+  },
+  {
+    "total_qty": 3,
+    "id": "5af0484c86f7740f02001f7f",
+    "name": "Банка кофе Majaica",
+    "name_short": "Majaica",
+    "icon": "majaica"
+  },
+  {
+    "total_qty": 5,
+    "id": "60391a8b3364dc22b04d0ce5",
+    "name": "Банка с термитной смесью",
+    "name_short": "Термит",
+    "icon": "thermite"
+  },
+  {
+    "total_qty": 4,
+    "id": "62a09ee4cf4a99369e262453",
+    "name": "Банка с солью",
+    "name_short": "Соль",
+    "icon": "salt"
+  },
+  {
+    "total_qty": 3,
+    "id": "5d1b33a686f7742523398398",
+    "name": "Канистра с очищенной водой",
+    "name_short": "Чистая вода",
+    "icon": "superwater"
+  },
+  {
+    "total_qty": 23,
+    "id": "5c06782b86f77426df5407d2",
+    "name": "Конденсаторы",
+    "name_short": "Конд.",
+    "icon": "caps"
+  },
+  {
+    "total_qty": 9,
+    "id": "5733279d245977289b77ec24",
+    "name": "Автомобильный аккумулятор",
+    "name_short": "Авто аккум.",
+    "icon": "car_battery"
+  },
+  {
+    "total_qty": 2,
+    "id": "59e3658a86f7741776641ac4",
+    "name": "Статуэтка кота",
+    "name_short": "Кот",
+    "icon": "cat"
+  },
+  {
+    "total_qty": 2,
+    "id": "573474f924597738002c6174",
+    "name": "Ювелирная цепочка",
+    "name_short": "Цепочка",
+    "icon": "chainlet"
+  },
+  {
+    "total_qty": 5,
+    "id": "57347b8b24597737dd42e192",
+    "name": "Обычные спички",
+    "name_short": "Спички",
+    "icon": "matches"
+  },
+  {
+    "total_qty": 3,
+    "id": "590c2c9c86f774245b1f03f2",
+    "name": "Строительная измерительная рулетка",
+    "name_short": "Рулетка",
+    "icon": "mtape"
+  },
+  {
+    "total_qty": 10,
+    "id": "5e2af41e86f774755a234b67",
+    "name": "Полиамидная ткань Кордура",
+    "name_short": "Кордура",
+    "icon": "cordura"
+  },
+  {
+    "total_qty": 41,
+    "id": "59e35cbb86f7741778269d83",
+    "name": "Гофрированный шланг",
+    "name_short": "ГШланг",
+    "icon": "hose"
+  },
+  {
+    "total_qty": 60,
+    "id": "5734779624597737e04bf329",
+    "name": "Процессорный кулер",
+    "name_short": "Кулер",
+    "icon": "cpu_fan"
+  },
+  {
+    "total_qty": 4,
+    "id": "56742c284bdc2d98058b456d",
+    "name": "Зажигалка Crickent",
+    "name_short": "Crickent",
+    "icon": "crickent"
+  },
+  {
+    "total_qty": 8,
+    "id": "590a386e86f77429692b27ab",
+    "name": "Поврежденный жесткий диск",
+    "name_short": "HDD",
+    "icon": "hdd"
+  },
+  {
+    "total_qty": 5,
+    "id": "590c645c86f77412b01304d9",
+    "name": "Ежедневник",
+    "name_short": "Дневник",
+    "icon": "diary"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d1b3f2d86f774253763b735",
+    "name": "Шприц в упаковке",
+    "name_short": "Шприц",
+    "icon": "syringe"
+  },
+  {
+    "total_qty": 7,
+    "id": "59f32c3b86f77472a31742f0",
+    "name": "Армейский жетон USEC",
+    "name_short": "USEC",
+    "icon": "usec"
+  },
+  {
+    "total_qty": 25000,
+    "id": "5696686a4bdc2da3298b456a",
+    "name": "Доллары",
+    "name_short": "Доллары",
+    "icon": "usd"
+  },
+  {
+    "total_qty": 1,
+    "id": "59387a4986f77401cc236e62",
+    "name": "Ключ от комнаты 114 общежития",
+    "name_short": "Общ 114",
+    "icon": "dorm_114"
+  },
+  {
+    "total_qty": 1,
+    "id": "5938504186f7740991483f30",
+    "name": "Ключ от комнаты 203 общежития",
+    "name_short": "Общ 203",
+    "icon": "dorm_203"
+  },
+  {
+    "total_qty": 1,
+    "id": "5938603e86f77435642354f4",
+    "name": "Ключ от комнаты 206 общежития",
+    "name_short": "Общ 206",
+    "icon": "dorm_206"
+  },
+  {
+    "total_qty": 5,
+    "id": "5780cfa52459777dfb276eb1",
+    "name": "Ключ от комнаты 220 общежития",
+    "name_short": "Общ 220",
+    "icon": "dorm_220"
+  },
+  {
+    "total_qty": 1,
+    "id": "593aa4be86f77457f56379f8",
+    "name": "Ключ от комнаты 303 общежития",
+    "name_short": "Общ 303",
+    "icon": "dorm_303"
+  },
+  {
+    "total_qty": 2,
+    "id": "5780cf7f2459777de4559322",
+    "name": "Ключ от комнаты 314 общежития (Меченый)",
+    "name_short": "Общ Меч",
+    "icon": "dorm_mrk."
+  },
+  {
+    "total_qty": 3,
+    "id": "590a373286f774287540368b",
+    "name": "Сухое горючее",
+    "name_short": "СухГор",
+    "icon": "dfuel"
+  },
+  {
+    "total_qty": 18,
+    "id": "57347c1124597737fb1379e3",
+    "name": "Монтажный скотч",
+    "name_short": "Скотч",
+    "icon": "duct_tape"
+  },
+  {
+    "total_qty": 1,
+    "id": "5734781f24597737e04bf32a",
+    "name": "DVD привод",
+    "name_short": "DVD",
+    "icon": "dvd"
+  },
+  {
+    "total_qty": 12,
+    "id": "59e35de086f7741778269d84",
+    "name": "Электродрель",
+    "name_short": "Дрель",
+    "icon": "drill"
+  },
+  {
+    "total_qty": 24,
+    "id": "5d1b2fa286f77425227d1674",
+    "name": "Электродвигатель",
+    "name_short": "Двигатель",
+    "icon": "motor"
+  },
+  {
+    "total_qty": 111,
+    "id": "590a3cd386f77436f20848cb",
+    "name": "Энергосберегающая лампа",
+    "name_short": "ЭСЛ",
+    "icon": "es_lamp"
+  },
+  {
+    "total_qty": 5,
+    "id": "5e831507ea0a7c419c2f9bd9",
+    "name": "Жгут Эсмарха",
+    "name_short": "Эсмарх",
+    "icon": "esmarch"
+  },
+  {
+    "total_qty": 2,
+    "id": "5710c24ad2720bc3458b45a3",
+    "name": "Ручная граната Ф-1",
+    "name_short": "Ф-1",
+    "icon": "f-1"
+  },
+  {
+    "total_qty": 1,
+    "id": "574eb85c245977648157eec3",
+    "name": "План-карта Завода",
+    "name_short": "Завод",
+    "icon": "factory"
+  },
+  {
+    "total_qty": 1,
+    "id": "6389c7f115805221fb410466",
+    "name": "Передовой блок усилителя GPS сигнала",
+    "name_short": "GPSA",
+    "icon": "gpsa"
+  },
+  {
+    "total_qty": 1,
+    "id": "63a0b208f444d32d6f03ea1e",
+    "name": "Кувалда \"Лютый удар\"",
+    "name_short": "Кувалда",
+    "icon": "sledgehammer"
+  },
+  {
+    "total_qty": 25,
+    "id": "5e2af47786f7746d404f3aaa",
+    "name": "Флисовая ткань",
+    "name_short": "Флис",
+    "icon": "fleece"
+  },
+  {
+    "total_qty": 2,
+    "id": "5d3eb3b0a4b93615055e84d2",
+    "name": "Пистолет FN Five-seveN MK2 5.7x28",
+    "name_short": "FN 5-7",
+    "icon": "fn_5-7"
+  },
+  {
+    "total_qty": 8,
+    "id": "5b43575a86f77424f443fe62",
+    "name": "Присадка для дизельного топлива",
+    "name_short": "Присадка",
+    "icon": "fcond"
+  },
+  {
+    "total_qty": 7,
+    "id": "590a3efd86f77437d351a25b",
+    "name": "Газоанализатор",
+    "name_short": "ГазАн",
+    "icon": "gasan"
+  },
+  {
+    "total_qty": 5,
+    "id": "590c595c86f7747884343ad7",
+    "name": "Воздушный фильтр для противогаза",
+    "name_short": "Фильтр",
+    "icon": "filter"
+  },
+  {
+    "total_qty": 1,
+    "id": "5ab8f4ff86f77431c60d91ba",
+    "name": "Балаклава Призрак",
+    "name_short": "Призрак",
+    "icon": "ghost"
+  },
+  {
+    "total_qty": 2,
+    "id": "5b1fa9b25acfc40018633c01",
+    "name": "Автоматический пистолет Glock 18C 9x19",
+    "name_short": "Glock 18C",
+    "icon": "glock_18c"
+  },
+  {
+    "total_qty": 6,
+    "id": "5d235a5986f77443f6329bc6",
+    "name": "Золотое кольцо с черепом",
+    "name_short": "Череп",
+    "icon": "skull"
+  },
+  {
+    "total_qty": 8,
+    "id": "5734758f24597738025ee253",
+    "name": "Золотая цепочка",
+    "name_short": "Зол. цепь",
+    "icon": "goldchain"
+  },
+  {
+    "total_qty": 2,
+    "id": "5bc9bc53d4351e00367fbcee",
+    "name": "Золотой петух",
+    "name_short": "Петух",
+    "icon": "rooster"
+  },
+  {
+    "total_qty": 1,
+    "id": "5ad7247386f7747487619dc3",
+    "name": "Ключ от касс Goshan",
+    "name_short": "Goshan кассы",
+    "icon": "goshan_reg."
+  },
+  {
+    "total_qty": 4,
+    "id": "5e2aedd986f7746d404f3aa4",
+    "name": "Литиевая аккумуляторная батарейка GreenBat",
+    "name_short": "GreenBat",
+    "icon": "greenbat"
+  },
+  {
+    "total_qty": 2,
+    "id": "5d1b317c86f7742523398392",
+    "name": "Ручная дрель",
+    "name_short": "Руч. дрель",
+    "icon": "hand_drill"
+  },
+  {
+    "total_qty": 2,
+    "id": "5a145d4786f7744cbb6f4a12",
+    "name": "Ключ от номера 306 восточного крыла Санатория",
+    "name_short": "Сан306 В",
+    "icon": "e306_san"
+  },
+  {
+    "total_qty": 2,
+    "id": "5a145d7b86f7744cbb6f4a13",
+    "name": "Ключ от номера 308 восточного крыла Санатория",
+    "name_short": "Сан308 В",
+    "icon": "e308_san"
+  },
+  {
+    "total_qty": 1,
+    "id": "5eff09cd30a7dc22fd1ddfed",
+    "name": "Ключ с пометкой от кабинета Санатория",
+    "name_short": "Сан пом.",
+    "icon": "san_tape"
+  },
+  {
+    "total_qty": 1,
+    "id": "5a0ee30786f774023b6ee08f",
+    "name": "Ключ от номера 216 западного крыла Санатория",
+    "name_short": "Сан216 З",
+    "icon": "w216_san"
+  },
+  {
+    "total_qty": 1,
+    "id": "5a13f46386f7741dd7384b04",
+    "name": "Ключ от номера 306 западного крыла Санатория",
+    "name_short": "Сан306 З",
+    "icon": "w306_san"
+  },
+  {
+    "total_qty": 3,
+    "id": "573478bc24597738002c6175",
+    "name": "Статуэтка коня",
+    "name_short": "Конь",
+    "icon": "horse"
+  },
+  {
+    "total_qty": 2,
+    "id": "5e2af2bc86f7746d3f3c33fc",
+    "name": "Охотничьи спички",
+    "name_short": "ОСпички",
+    "icon": "hmatches"
+  },
+  {
+    "total_qty": 12,
+    "id": "5734795124597738002c6176",
+    "name": "Изолента",
+    "name_short": "Изолента",
+    "icon": "tape"
+  },
+  {
+    "total_qty": 4,
+    "id": "5c12613b86f7743bbe2c3f76",
+    "name": "Папка с разведданными",
+    "name_short": "Разведданные",
+    "icon": "intelligence"
+  },
+  {
+    "total_qty": 1,
+    "id": "59d6088586f774275f37482f",
+    "name": "Автомат Калашникова АКМ 7.62x39",
+    "name_short": "АКМ",
+    "icon": "akm"
+  },
+  {
+    "total_qty": 1,
+    "id": "5a0ec13bfcdbcb00165aa685",
+    "name": "Автомат Калашникова АКМН 7.62x39",
+    "name_short": "АКМН",
+    "icon": "akmn"
+  },
+  {
+    "total_qty": 1,
+    "id": "59ff346386f77477562ff5e2",
+    "name": "Автомат Калашникова АКМС 7.62x39",
+    "name_short": "АКМС",
+    "icon": "akms"
+  },
+  {
+    "total_qty": 1,
+    "id": "5abcbc27d8ce8700182eceeb",
+    "name": "Автомат Калашникова АКМСН 7.62x39",
+    "name_short": "АКМСН",
+    "icon": "akmsn"
+  },
+  {
+    "total_qty": 16,
+    "id": "5e2af29386f7746d4159f077",
+    "name": "Липкая лента \"KEKТЕЙП\"",
+    "name_short": "КЕК",
+    "icon": "kek"
+  },
+  {
+    "total_qty": 2,
+    "id": "5aa2b9ede5b5b000137b758b",
+    "name": "Ковбойская шляпа",
+    "name_short": "Ковбой",
+    "icon": "cowboy"
+  },
+  {
+    "total_qty": 2,
+    "id": "5df8ce05b11454561e39243b",
+    "name": "Марксманская винтовка Knight's Armament Company SR-25 7.62x51",
+    "name_short": "SR-25",
+    "icon": "sr-25"
+  },
+  {
+    "total_qty": 4,
+    "id": "544fb5454bdc2df8738b456a",
+    "name": "Мультитул Leatherman",
+    "name_short": "Мультитул",
+    "icon": "multitool"
+  },
+  {
+    "total_qty": 3,
+    "id": "5c0530ee86f774697952d952",
+    "name": "Светодиодный трансиллюминатор кожи LEDX",
+    "name_short": "LEDX",
+    "icon": "ledx"
+  },
+  {
+    "total_qty": 26,
+    "id": "5d1b392c86f77425243e98fe",
+    "name": "Лампа накаливания",
+    "name_short": "Лампа",
+    "icon": "bulb"
+  },
+  {
+    "total_qty": 7,
+    "id": "5c05308086f7746b2101e90b",
+    "name": "Virtex programmable processor",
+    "name_short": "Virtex",
+    "icon": "virtex"
+  },
+  {
+    "total_qty": 1,
+    "id": "5b7c710788a4506dec015957",
+    "name": "Кейс для хлама",
+    "name_short": "Хлам",
+    "icon": "junk"
+  },
+  {
+    "total_qty": 2,
+    "id": "58d3db5386f77426186285a0",
+    "name": "Ручная граната M67",
+    "name_short": "M67",
+    "icon": "m67"
+  },
+  {
+    "total_qty": 1,
+    "id": "5937ee6486f77408994ba448",
+    "name": "Ключ от спецтехники",
+    "name_short": "Спецтех",
+    "icon": "machinery"
+  },
+  {
+    "total_qty": 1,
+    "id": "590a391c86f774385a33c404",
+    "name": "Магнит",
+    "name_short": "Магнит",
+    "icon": "magnet"
+  },
+  {
+    "total_qty": 2,
+    "id": "668fe5a998b5ad715703ddd6",
+    "name": "Пистолет Magnum Research Desert Eagle Mk XIX .50 AE",
+    "name_short": "Desert Eagle Mk XIX",
+    "icon": "desert_eagle_mk_xix"
+  },
+  {
+    "total_qty": 2,
+    "id": "5448bd6b4bdc2dfc2f8b4569",
+    "name": "Пистолет Макарова ПМ 9x18ПМ",
+    "name_short": "ПМ",
+    "icon": "pm"
+  },
+  {
+    "total_qty": 2,
+    "id": "5b4335ba86f7744d2837a264",
+    "name": "Набор для переливания крови",
+    "name_short": "Перелив.",
+    "icon": "bloodset"
+  },
+  {
+    "total_qty": 3,
+    "id": "619cc01e0a7c3a1a2731940c",
+    "name": "Медицинские инструменты",
+    "name_short": "Мед.",
+    "icon": "medtools"
+  },
+  {
+    "total_qty": 3,
+    "id": "5d40419286f774318526545f",
+    "name": "Ножницы для резки металла",
+    "name_short": "Металл",
+    "icon": "mscissors"
+  },
+  {
+    "total_qty": 86,
+    "id": "61bf7b6302b3924be92fa8c3",
+    "name": "Набор металлических частей",
+    "name_short": "Зап.части",
+    "icon": "m.parts"
+  },
+  {
+    "total_qty": 2,
+    "id": "5ab8e4ed86f7742d8e50c7fa",
+    "name": "Бронежилет MF-UNTAR",
+    "name_short": "MF-UN",
+    "icon": "mf-un"
+  },
+  {
+    "total_qty": 15,
+    "id": "5d0375ff86f774186372f685",
+    "name": "Военный кабель",
+    "name_short": "ВКабель",
+    "icon": "mcable"
+  },
+  {
+    "total_qty": 13,
+    "id": "5c052f6886f7746b1e3db148",
+    "name": "Военный COFDM беспроводной передатчик сигналов",
+    "name_short": "SG-C10",
+    "icon": "sg-c10"
+  },
+  {
+    "total_qty": 12,
+    "id": "619cbf476b8a1b37a54eebf8",
+    "name": "Военная гофрированная трубка",
+    "name_short": "Гофра",
+    "icon": "mtube"
+  },
+  {
+    "total_qty": 5,
+    "id": "62a0a16d0b9d3c46de5b6e97",
+    "name": "Военный флеш-накопитель",
+    "name_short": "В. Флешка",
+    "icon": "mfd"
+  },
+  {
+    "total_qty": 17,
+    "id": "5d0378d486f77420421a5ff4",
+    "name": "Военный фильтр питания",
+    "name_short": "ВФильтр",
+    "icon": "pfilter"
+  },
+  {
+    "total_qty": 4,
+    "id": "544fb3f34bdc2d03748b456a",
+    "name": "Шприц с морфием",
+    "name_short": "Морфий",
+    "icon": "morphine"
+  },
+  {
+    "total_qty": 2,
+    "id": "5e870397991fd70db46995c8",
+    "name": "Помповое ружье Mossberg 590A1 12к",
+    "name_short": "590A1",
+    "icon": "590a1"
+  },
+  {
+    "total_qty": 5,
+    "id": "54491c4f4bdc2db1078b4568",
+    "name": "Помповое ружье MP-133 12к",
+    "name_short": "MP-133",
+    "icon": "mp-133"
+  },
+  {
+    "total_qty": 2,
+    "id": "56dee2bdd2720bc8328b4567",
+    "name": "Самозарядное ружье MP-153 12к",
+    "name_short": "MP-153",
+    "icon": "mp-153"
+  },
+  {
+    "total_qty": 2,
+    "id": "606dae0ab0e443224b421bb7",
+    "name": "Самозарядное ружье MP-155 12к",
+    "name_short": "MP-155",
+    "icon": "mp-155"
+  },
+  {
+    "total_qty": 4,
+    "id": "5580223e4bdc2d1c128b457f",
+    "name": "Двуствольное ружье MP-43-1C 12к",
+    "name_short": "MP-43-1C",
+    "icon": "mp-43-1c"
+  },
+  {
+    "total_qty": 5,
+    "id": "590c5f0d86f77413997acfab",
+    "name": "Сухой паек MRE",
+    "name_short": "MRE",
+    "icon": "mre"
+  },
+  {
+    "total_qty": 176,
+    "id": "5991b51486f77447b112d44f",
+    "name": "Маркер MS2000",
+    "name_short": "MS2000",
+    "icon": "ms2000"
+  },
+  {
+    "total_qty": 2,
+    "id": "60db29ce99594040e04c4a27",
+    "name": "Ружье МЦ-255-12 12к",
+    "name_short": "МЦ-255-12",
+    "icon": "mts-255-12"
+  },
+  {
+    "total_qty": 9,
+    "id": "5d1b2ffd86f77425243e8d17",
+    "name": "Объектив NIXXOR",
+    "name_short": "NIXXOR",
+    "icon": "nixxor"
+  },
+  {
+    "total_qty": 5,
+    "id": "5d0379a886f77420407aa271",
+    "name": "Снаряд ОФЗ 30x165мм",
+    "name_short": "ОФЗ",
+    "icon": "ofz"
+  },
+  {
+    "total_qty": 1,
+    "id": "5ad5cfbd86f7742c825d6104",
+    "name": "Ключ от офиса службы логистики OLI",
+    "name_short": "OLI лог.",
+    "icon": "oli_log."
+  },
+  {
+    "total_qty": 5,
+    "id": "5af0534a86f7743b6f354284",
+    "name": "Офтальмоскоп",
+    "name_short": "ОСкоп",
+    "icon": "oscope"
+  },
+  {
+    "total_qty": 30,
+    "id": "590c31c586f774245e3141b2",
+    "name": "Пачка гвоздей",
+    "name_short": "Гвозди",
+    "icon": "nails"
+  },
+  {
+    "total_qty": 44,
+    "id": "59e35ef086f7741777737012",
+    "name": "Пакет саморезов",
+    "name_short": "Саморезы",
+    "icon": "screws"
+  },
+  {
+    "total_qty": 3,
+    "id": "59e35abd86f7741778269d82",
+    "name": "Пачка соды",
+    "name_short": "Сода",
+    "icon": "sodium"
+  },
+  {
+    "total_qty": 1,
+    "id": "59e3596386f774176c10a2a2",
+    "name": "Спрей от насекомых PAID AntiRoach",
+    "name_short": "PAID",
+    "icon": "paid"
+  },
+  {
+    "total_qty": 2,
+    "id": "5645bcc04bdc2d363b8b4572",
+    "name": "Активные наушники Peltor \"ComTac II\" (OD Green)",
+    "name_short": "ComTac II",
+    "icon": "comtac_ii"
+  },
+  {
+    "total_qty": 26,
+    "id": "5d1b313086f77425227d1678",
+    "name": "Реле контроля фаз",
+    "name_short": "Реле",
+    "icon": "relay"
+  },
+  {
+    "total_qty": 6,
+    "id": "5d03775b86f774203e7e0c4b",
+    "name": "Элемент фазированной решетки РЛС",
+    "name_short": "ФАР",
+    "icon": "aesa"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d1b3a5d86f774252167ba22",
+    "name": "Набор медикаментов",
+    "name_short": "Мед.",
+    "icon": "meds"
+  },
+  {
+    "total_qty": 1,
+    "id": "59e763f286f7742ee57895da",
+    "name": "Туристический рюкзак \"Пилигрим\"",
+    "name_short": "Пилигрим",
+    "icon": "pilgrim"
+  },
+  {
+    "total_qty": 1,
+    "id": "619cbfccbedcde2f5b3f7bdd",
+    "name": "Шарнирный ключ КШС",
+    "name_short": "КШС",
+    "icon": "pgw"
+  },
+  {
+    "total_qty": 7,
+    "id": "5af04b6486f774195a3ebb49",
+    "name": "Плоскогубцы Elite",
+    "name_short": "Elite",
+    "icon": "elite"
+  },
+  {
+    "total_qty": 1,
+    "id": "5938144586f77473c2087145",
+    "name": "Ключ от времянки на заводской зоне Таможни",
+    "name_short": "Заводская",
+    "icon": "bunkhouse"
+  },
+  {
+    "total_qty": 32,
+    "id": "59e36c6f86f774176c10a2a7",
+    "name": "Силовой кабель",
+    "name_short": "Кабель",
+    "icon": "cord"
+  },
+  {
+    "total_qty": 25,
+    "id": "57347c2e24597744902c94a1",
+    "name": "Блок питания",
+    "name_short": "БП",
+    "icon": "psu"
+  },
+  {
+    "total_qty": 14,
+    "id": "5d1b327086f7742525194449",
+    "name": "Датчик давления",
+    "name_short": "Датчик",
+    "icon": "pgauge"
+  },
+  {
+    "total_qty": 23,
+    "id": "590a3b0486f7743954552bdb",
+    "name": "Печатная плата",
+    "name_short": "Плата",
+    "icon": "pcb"
+  },
+  {
+    "total_qty": 13,
+    "id": "5d1c774f86f7746d6620f8db",
+    "name": "Спираль накаливания",
+    "name_short": "Спираль",
+    "icon": "helix"
+  },
+  {
+    "total_qty": 4,
+    "id": "60391afc25aff57af81f7085",
+    "name": "Трещоточный ключ",
+    "name_short": "Трещ.",
+    "icon": "ratchet"
+  },
+  {
+    "total_qty": 1,
+    "id": "5aa2b9aee5b5b00015693121",
+    "name": "Очки RayBench \"Hipster Reserve\"",
+    "name_short": "RayBench",
+    "icon": "raybench"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d947d4e86f774447b415895",
+    "name": "Ключ РБ-КСМ",
+    "name_short": "РБ-КСМ",
+    "icon": "rb-ksm"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d80c6c586f77440351beef1",
+    "name": "Ключ РБ-ОБ",
+    "name_short": "РБ-ОБ",
+    "icon": "rb-ob"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d80ccac86f77470841ff452",
+    "name": "Ключ РБ-ОРБ1",
+    "name_short": "РБ-ОРБ1",
+    "icon": "rb-orb1"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d80ccdd86f77474f7575e02",
+    "name": "Ключ РБ-ОРБ2",
+    "name_short": "РБ-ОРБ2",
+    "icon": "rb-orb2"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d80cd1a86f77402aa362f42",
+    "name": "Ключ РБ-ОРБ3",
+    "name_short": "РБ-ОРБ3",
+    "icon": "rb-orb3"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d947d3886f774447b415893",
+    "name": "Ключ РБ-СМП",
+    "name_short": "РБ-СМП",
+    "icon": "rb-smp"
+  },
+  {
+    "total_qty": 3,
+    "id": "5d9f1fa686f774726974a992",
+    "name": "Ключ РБ-СТ",
+    "name_short": "РБ-СТ",
+    "icon": "rb-st"
+  },
+  {
+    "total_qty": 2,
+    "id": "5a7828548dc32e5a9c28b516",
+    "name": "Помповое ружье Remington Model 870 12к",
+    "name_short": "M870",
+    "icon": "m870"
+  },
+  {
+    "total_qty": 2,
+    "id": "5448be9a4bdc2dfd2f8b456a",
+    "name": "Ручная граната РГД-5",
+    "name_short": "РГД-5",
+    "icon": "rgd-5"
+  },
+  {
+    "total_qty": 2,
+    "id": "617fd91e5539a84ec44ce155",
+    "name": "Ручная граната РГН",
+    "name_short": "РГН",
+    "icon": "rgn"
+  },
+  {
+    "total_qty": 2,
+    "id": "618a431df1eb8e24b8741deb",
+    "name": "Ручная граната РГО",
+    "name_short": "РГО",
+    "icon": "rgo"
+  },
+  {
+    "total_qty": 4,
+    "id": "59faf7ca86f7740dbe19f6c2",
+    "name": "Золотые часы Roler Submariner",
+    "name_short": "Roler",
+    "icon": "roler"
+  },
+  {
+    "total_qty": 1,
+    "id": "5aa2b923e5b5b000137b7589",
+    "name": "Очки с круглой оправой",
+    "name_short": "Круг",
+    "icon": "rglasses"
+  },
+  {
+    "total_qty": 1,
+    "id": "5d1b31ce86f7742523398394",
+    "name": "Круглогубцы",
+    "name_short": "КГубцы",
+    "icon": "rpliers"
+  },
+  {
+    "total_qty": 2,
+    "id": "576165642459773c7a400233",
+    "name": "Самозарядный карабин Сайга-12К исп.10",
+    "name_short": "Сайга-12К исп.10",
+    "icon": "saiga-12k"
+  },
+  {
+    "total_qty": 3,
+    "id": "544fb45d4bdc2dee738b4568",
+    "name": "Аптечка Salewa First Aid Kit",
+    "name_short": "Salewa",
+    "icon": "salewa"
+  },
+  {
+    "total_qty": 1,
+    "id": "617151c1d92c473c770214ab",
+    "name": "Оптический прицел 30мм Schmidt & Bender PM II 1-8x24",
+    "name_short": "PM II 1-8x24",
+    "icon": "pm_ii_1-8x24"
+  },
+  {
+    "total_qty": 23,
+    "id": "57347c77245977448d35f6e2",
+    "name": "Гайки",
+    "name_short": "Гайки",
+    "icon": "nuts"
+  },
+  {
+    "total_qty": 8,
+    "id": "590c621186f774138d11ea29",
+    "name": "Защищенный флеш-накопитель",
+    "name_short": "Флешка",
+    "icon": "flash_drive"
+  },
+  {
+    "total_qty": 2,
+    "id": "61bf7c024770ee6f9c6b8b53",
+    "name": "Защищенная кассета с магнитной пленкой",
+    "name_short": "SMT",
+    "icon": "smt"
+  },
+  {
+    "total_qty": 5,
+    "id": "62a0a0bb621468534a797ad5",
+    "name": "Набор напильников \"Мастер\"",
+    "name_short": "Мастер",
+    "icon": "master"
+  },
+  {
+    "total_qty": 3,
+    "id": "61bf83814088ec1a363d7097",
+    "name": "Набор для шитья",
+    "name_short": "Красавч.",
+    "icon": "krasavch."
+  },
+  {
+    "total_qty": 1,
+    "id": "5ab8f85d86f7745cd93a1cf5",
+    "name": "Арафатка (Зеленая)",
+    "name_short": "Арафатка",
+    "icon": "shemagh"
+  },
+  {
+    "total_qty": 19,
+    "id": "590c35a486f774273531c822",
+    "name": "Монтажная пена Shustrilo",
+    "name_short": "Shus",
+    "icon": "shus"
+  },
+  {
+    "total_qty": 2,
+    "id": "56d59856d2720bd8418b456a",
+    "name": "Пистолет SIG P226R 9x19",
+    "name_short": "P226R",
+    "icon": "p226r"
+  },
+  {
+    "total_qty": 1,
+    "id": "59bffbb386f77435b379b9c2",
+    "name": "Глушитель SilencerCo \"Hybrid 46\" мультикалиберный",
+    "name_short": "Hybrid 46",
+    "icon": "hybrid_46"
+  },
+  {
+    "total_qty": 25,
+    "id": "5d1b39a386f774252339976f",
+    "name": "Силиконовая трубка",
+    "name_short": "Трубка",
+    "icon": "tube"
+  },
+  {
+    "total_qty": 1,
+    "id": "5ab8f20c86f7745cdb629fb2",
+    "name": "Лыжная шапка с прорезями для глаз",
+    "name_short": "Шмаска",
+    "icon": "shmaska"
+  },
+  {
+    "total_qty": 5,
+    "id": "590c651286f7741e566b6461",
+    "name": "Тонкий ежедневник",
+    "name_short": "ТДневник",
+    "icon": "sdiary"
+  },
+  {
+    "total_qty": 2,
+    "id": "5e2af00086f7746d3f3c33f7",
+    "name": "Средство для прочистки труб \"Копченый Дымоход\"",
+    "name_short": "КД",
+    "icon": "dcleaner"
+  },
+  {
+    "total_qty": 1,
+    "id": "5c13cd2486f774072c757944",
+    "name": "Кусок мыла",
+    "name_short": "Мыло",
+    "icon": "soap"
+  },
+  {
+    "total_qty": 19,
+    "id": "590a3c0a86f774385a33c450",
+    "name": "Свеча зажигания",
+    "name_short": "Свеча",
+    "icon": "splug"
+  },
+  {
+    "total_qty": 1,
+    "id": "590c392f86f77444754deb29",
+    "name": "SSD диск",
+    "name_short": "SSD",
+    "icon": "ssd"
+  },
+  {
+    "total_qty": 2,
+    "id": "5abccb7dd8ce87001773e277",
+    "name": "Автоматический Пистолет Бесшумный АПБ 9x18ПМ",
+    "name_short": "АПБ",
+    "icon": "apb"
+  },
+  {
+    "total_qty": 1,
+    "id": "5e2af37686f774755a234b65",
+    "name": "Зажигалка выживальщика SurvL",
+    "name_short": "SurvL",
+    "icon": "survl"
+  },
+  {
+    "total_qty": 11,
+    "id": "55801eed4bdc2d89578b4588",
+    "name": "Снайперская винтовка СВ-98 7.62x54R",
+    "name_short": "СВ-98",
+    "icon": "sv-98"
+  },
+  {
+    "total_qty": 2,
+    "id": "5780d0532459777a5108b9a2",
+    "name": "Ключ от офиса таможни",
+    "name_short": "Офис",
+    "icon": "director's"
+  },
+  {
+    "total_qty": 11,
+    "id": "590c639286f774151567fa95",
+    "name": "Техническая документация",
+    "name_short": "Мануал",
+    "icon": "manual"
+  },
+  {
+    "total_qty": 1,
+    "id": "5c13cef886f774072e618e82",
+    "name": "Рулон туалетной бумаги",
+    "name_short": "ТБшка",
+    "icon": "tp"
+  },
+  {
+    "total_qty": 11,
+    "id": "590c2e1186f77425357b6124",
+    "name": "Набор инструментов",
+    "name_short": "Инструменты",
+    "icon": "toolset"
+  },
+  {
+    "total_qty": 1,
+    "id": "57347c93245977448d35f6e3",
+    "name": "Зубная паста",
+    "name_short": "Зуб. паста",
+    "icon": "toothpaste"
+  },
+  {
+    "total_qty": 1,
+    "id": "62a0a124de7ac81993580542",
+    "name": "Материалы топографической разведки",
+    "name_short": "Карты",
+    "icon": "maps"
+  },
+  {
+    "total_qty": 1,
+    "id": "5a38e6bac4a2826c6e06d79b",
+    "name": "Болтовое ружье ТОЗ-106 20к",
+    "name_short": "ТОЗ-106",
+    "icon": "toz-106"
+  },
+  {
+    "total_qty": 4,
+    "id": "5c052e6986f7746b207bc3c9",
+    "name": "Portable defibrillator",
+    "name_short": "Defib",
+    "icon": "defib"
+  },
+  {
+    "total_qty": 1,
+    "id": "60391b0fb847c71012789415",
+    "name": "Тротиловая шашка ТП-200",
+    "name_short": "ТП-200",
+    "icon": "tp-200"
+  },
+  {
+    "total_qty": 1,
+    "id": "5913611c86f77479e0084092",
+    "name": "Ключ от времянки трейлерного парка",
+    "name_short": "Времянка",
+    "icon": "cabin"
+  },
+  {
+    "total_qty": 1,
+    "id": "666b11055a706400b717cfa5",
+    "name": "Набор для минирования",
+    "name_short": "М. набор",
+    "icon": "tripwire"
+  },
+  {
+    "total_qty": 8,
+    "id": "57347cd0245977445a2d6ff1",
+    "name": "Тройник",
+    "name_short": "Тройник",
+    "icon": "t-plug"
+  },
+  {
+    "total_qty": 2,
+    "id": "571a12c42459771f627b58a0",
+    "name": "Пистолет ТТ-33 7.62x25 ТТ",
+    "name_short": "ТТ",
+    "icon": "tt"
+  },
+  {
+    "total_qty": 8,
+    "id": "5e2af22086f7746d3f3c33fa",
+    "name": "Тюбик холодной сварки Poxeram",
+    "name_short": "Poxeram",
+    "icon": "poxeram"
+  },
+  {
+    "total_qty": 1,
+    "id": "593962ca86f774068014d9af",
+    "name": "Неизвестный ключ",
+    "name_short": "Неизв.",
+    "icon": "unknown"
+  },
+  {
+    "total_qty": 2,
+    "id": "5aa7d03ae5b5b00016327db5",
+    "name": "Шлем UNTAR",
+    "name_short": "UNTAR",
+    "icon": "untar"
+  },
+  {
+    "total_qty": 2,
+    "id": "59e7708286f7742cbd762753",
+    "name": "Шапка-ушанка",
+    "name_short": "Ушанка",
+    "icon": "ushanka"
+  },
+  {
+    "total_qty": 1,
+    "id": "66dae7cbeb28f0f96809f325",
+    "name": "Ручная граната V40 Mini-Grenade",
+    "name_short": "V40",
+    "icon": "v40"
+  },
+  {
+    "total_qty": 2,
+    "id": "5e32f56fcb6d5863cc5e5ee4",
+    "name": "Граната \"Хаттабка\" на базе ВОГ-17",
+    "name_short": "ВОГ-17",
+    "icon": "vog-17"
+  },
+  {
+    "total_qty": 2,
+    "id": "5e340dcdcb6d5863cc5e5efb",
+    "name": "Граната \"Хаттабка\" на базе ВОГ-25",
+    "name_short": "ВОГ-25",
+    "icon": "vog-25"
+  },
+  {
+    "total_qty": 3,
+    "id": "5c05300686f7746dce784e5d",
+    "name": "Твердотельный накопитель VPX Flash Storage Module",
+    "name_short": "VPX",
+    "icon": "vpx"
+  },
+  {
+    "total_qty": 2,
+    "id": "59e7643b86f7742cbf2c109a",
+    "name": "Ременно-плечевая система WARTECH \"TV-109 + TV-106\" (A-TACS FG)",
+    "name_short": "TV-106 + TV-109",
+    "icon": "tv-106_+_tv-109"
+  },
+  {
+    "total_qty": 4,
+    "id": "590c5bbd86f774785762df04",
+    "name": "WD-40 (100мл)",
+    "name_short": "WD-40",
+    "icon": "wd-40"
+  },
+  {
+    "total_qty": 8,
+    "id": "5d1c819a86f774771b0acd6c",
+    "name": "Оружейные части",
+    "name_short": "Ор. части",
+    "icon": "wparts"
+  },
+  {
+    "total_qty": 20,
+    "id": "5b4391a586f7745321235ab2",
+    "name": "WI-FI Камера",
+    "name_short": "Камера",
+    "icon": "camera"
+  },
+  {
+    "total_qty": 7,
+    "id": "5d1b304286f774253763a528",
+    "name": "Рабочий LCD дисплей",
+    "name_short": "LCD",
+    "icon": "lcd"
+  },
+  {
+    "total_qty": 5,
+    "id": "590c311186f77424d1667482",
+    "name": "Гаечный ключ",
+    "name_short": "ГКлюч",
+    "icon": "wrench"
+  },
+  {
+    "total_qty": 14,
+    "id": "590c346786f77423e50ed342",
+    "name": "Монтажная пена Xenomorph",
+    "name_short": "Xeno",
+    "icon": "xeno"
+  },
+  {
+    "total_qty": 2,
+    "id": "576a581d2459771e7b1bc4f1",
+    "name": "Пистолет Ярыгина MP-443 \"Грач\" 9x19",
+    "name_short": "MP-443 \"Грач\"",
+    "icon": "mp-443_grach"
+  }
+]
