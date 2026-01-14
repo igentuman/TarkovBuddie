@@ -10,6 +10,7 @@ namespace TARKIT.ViewModels;
 public class SettingsViewModel : ViewModelBase
 {
     private readonly SettingsService _settingsService;
+    private readonly ExitTrackerService _exitTrackerService;
     private string _selectedLanguage = "English";
     private int _overlayTransparency = 100;
     private string _questDataPath = "";
@@ -17,6 +18,7 @@ public class SettingsViewModel : ViewModelBase
     private string _userDataPath = "";
     private string? _currentBindingAction;
     private bool _isListeningForHotKey;
+    private bool _enableExitTracker = false;
 
     public ObservableCollection<string> AvailableLanguages { get; }
     public ObservableCollection<HotKeyDisplay> HotKeyDisplays { get; }
@@ -64,6 +66,18 @@ public class SettingsViewModel : ViewModelBase
         set => SetProperty(ref _isListeningForHotKey, value);
     }
 
+    public bool EnableExitTracker
+    {
+        get => _enableExitTracker;
+        set
+        {
+            if (SetProperty(ref _enableExitTracker, value))
+            {
+                HandleExitTrackerToggle(value);
+            }
+        }
+    }
+
     public ICommand BindHotKeyCommand { get; }
     public ICommand ClearHotKeyCommand { get; }
     public ICommand BrowseQuestDataCommand { get; }
@@ -74,6 +88,7 @@ public class SettingsViewModel : ViewModelBase
     public SettingsViewModel()
     {
         _settingsService = SettingsService.Instance;
+        _exitTrackerService = ExitTrackerService.Instance;
         
         AvailableLanguages = new ObservableCollection<string> { "English", "Russian" };
         HotKeyDisplays = new ObservableCollection<HotKeyDisplay>
@@ -101,8 +116,14 @@ public class SettingsViewModel : ViewModelBase
         QuestDataPath = settings.QuestDataPath;
         ItemDataPath = settings.ItemDataPath;
         UserDataPath = settings.UserDataPath;
+        EnableExitTracker = settings.EnableExitTracker;
 
         UpdateHotKeyDisplays(settings);
+        
+        if (EnableExitTracker)
+        {
+            _exitTrackerService.Start();
+        }
     }
 
     private void UpdateHotKeyDisplays(ApplicationSettings settings)
@@ -178,10 +199,41 @@ public class SettingsViewModel : ViewModelBase
             QuestDataPath = QuestDataPath,
             ItemDataPath = ItemDataPath,
             UserDataPath = UserDataPath,
-            HotKeys = currentSettings.HotKeys
+            HotKeys = currentSettings.HotKeys,
+            EnableExitTracker = EnableExitTracker
         };
 
         _settingsService.SaveSettings(settings);
+    }
+
+    private void HandleExitTrackerToggle(bool enabled)
+    {
+        if (enabled)
+        {
+            _exitTrackerService.ExitsDetected += OnExitsDetected;
+            _exitTrackerService.ErrorOccurred += OnTrackerError;
+            _exitTrackerService.Start();
+        }
+        else
+        {
+            _exitTrackerService.Stop();
+            _exitTrackerService.ExitsDetected -= OnExitsDetected;
+            _exitTrackerService.ErrorOccurred -= OnTrackerError;
+        }
+
+        var currentSettings = _settingsService.GetCurrentSettings();
+        currentSettings.EnableExitTracker = enabled;
+        _settingsService.SaveSettings(currentSettings);
+    }
+
+    private void OnExitsDetected(List<string> exits)
+    {
+        System.Diagnostics.Debug.WriteLine($"Exits detected: {string.Join(", ", exits)}");
+    }
+
+    private void OnTrackerError(Exception ex)
+    {
+        System.Diagnostics.Debug.WriteLine($"Exit tracker error: {ex.Message}");
     }
 
     private bool ValidateAllPaths()

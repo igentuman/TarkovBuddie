@@ -149,6 +149,39 @@
                     </StackPanel>
                 </ScrollViewer>
             </TabItem>
+
+            <!-- Exit Tracker Tab -->
+            <TabItem Padding="5">
+                <TabItem.Header>
+                    <TextBlock Text="Exit Tracker"/>
+                </TabItem.Header>
+                <StackPanel Margin="10" VerticalAlignment="Top">
+                    <TextBlock Text="Exit Tracking Settings" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
+                    
+                    <CheckBox 
+                        IsChecked="{Binding EnableExitTracker}" 
+                        Margin="0,0,0,10"
+                        Padding="5">
+                        <TextBlock Text="Enable Exit Tracker (OCR)" VerticalAlignment="Center"/>
+                    </CheckBox>
+                    
+                    <TextBlock 
+                        Text="Automatically detects available raid exits using screen capture and OCR." 
+                        FontSize="11" 
+                        Foreground="#666666"
+                        TextWrapping="Wrap"
+                        Margin="0,0,0,10"/>
+                    
+                    <Border Background="#FFF9C4" Padding="10" Margin="0,10,0,10" BorderThickness="1" BorderBrush="#FBC02D">
+                        <StackPanel>
+                            <TextBlock Text="Note:" FontWeight="Bold" Margin="0,0,0,5"/>
+                            <TextBlock Text="• Requires tessdata files in application directory" FontSize="10"/>
+                            <TextBlock Text="• Runs on background thread with low priority" FontSize="10"/>
+                            <TextBlock Text="• Captures top-right screen region every 2 seconds" FontSize="10"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </TabItem>
         </TabControl>
     </Grid>
 </UserControl>

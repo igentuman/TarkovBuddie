@@ -8,9 +8,14 @@
         <UseWPF>true</UseWPF>
         <UseWindowsForms>true</UseWindowsForms>
         <RootNamespace>TARKIT</RootNamespace>
+        <TargetPlatformVersion>10.0.28000.0</TargetPlatformVersion>
     </PropertyGroup>
 
     <ItemGroup>
+        <None Include="..\..\..\.nuget\packages\tesseract.net.sdk\4.6.411\content\tessdata\rus.traineddata">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          <Link>tessdata\rus.traineddata</Link>
+        </None>
         <None Include="data/**/*" CopyToOutputDirectory="PreserveNewest" />
         <None Include="icons/**/*" CopyToOutputDirectory="PreserveNewest" />
         <None Include="maps/**/*" CopyToOutputDirectory="PreserveNewest" />
@@ -26,6 +31,17 @@
         <None Update="data\ru\quests_ru.json">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Tesseract" Version="5.2.0" />
+      <PackageReference Include="Tesseract.Net.SDK" Version="4.6.411" />
+      <PackageReference Include="SharpDX" Version="4.2.0" />
+      <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="data\ocr\" />
     </ItemGroup>
 
 </Project>

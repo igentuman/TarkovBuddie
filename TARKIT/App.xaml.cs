@@ -11,4 +11,10 @@ public partial class App : System.Windows.Application
         var locService = LocalizationService.Instance;
         base.OnStartup(e);
     }
+
+    protected override void OnExit(System.Windows.ExitEventArgs e)
+    {
+        ExitTrackerService.Instance?.Dispose();
+        base.OnExit(e);
+    }
 }

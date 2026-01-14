@@ -19,4 +19,5 @@ public class ApplicationSettings
     public string SelectedMap { get; set; } = "";
     public Dictionary<string, HotKeyBinding> HotKeys { get; set; } = new();
     public Dictionary<string, MapViewportState> MapViewportStates { get; set; } = new();
+    public bool EnableExitTracker { get; set; } = false;
 }

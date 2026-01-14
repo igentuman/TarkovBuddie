@@ -49,5 +49,11 @@
   "about.feature5": "• Transparent overlay windows for in-game reference",
   "about.planned1": "• ChatGPT integration for AI assistance",
   "about.planned2": "• Automatic map switch to match in-raid map",
-  "about.planned3": "• Pins on map for quests and exits"
+  "about.planned3": "• Pins on map for quests and exits",
+  "section.exit_tracker": "Exit Tracker",
+  "label.exit_tracker": "Enable Exit Tracker (OCR)",
+  "message.exit_tracker_info": "Automatically detects available raid exits using screen capture and OCR.",
+  "hint.tessdata_required": "Requires tessdata files in application directory",
+  "hint.background_thread": "Runs on background thread with low priority",
+  "hint.capture_frequency": "Captures top-right screen region every 2 seconds"
 }
