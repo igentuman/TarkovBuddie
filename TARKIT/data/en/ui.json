@@ -1,5 +1,5 @@
 {
-  "title.main": "TARKIT | v1.0-beta",
+  "title.main": "TARKIT | v1.0-beta2",
   "title.about": "About TARKIT",
   "tab.map": "Map",
   "tab.quests": "Quest Tracker",
@@ -27,7 +27,7 @@
   "section.file_paths": "File Paths",
   "section.features": "Features:",
   "section.planned_features": "Planned Features:",
-  "message.language_settings": "Language Settings (WIP)",
+  "message.language_settings": "Language Settings",
   "message.overlay_settings": "Overlay Settings (WIP)",
   "message.file_paths": "Data File Paths (WIP)",
   "message.language_update": "Application UI will update to the selected language",
@@ -47,7 +47,7 @@
   "about.feature3": "• Manage items and track quantities",
   "about.feature4": "• Configurable hotkeys for quick access",
   "about.feature5": "• Transparent overlay windows for in-game reference",
-  "about.planned1": "• Russian localization",
+  "about.planned1": "• ChatGPT integration for AI assistance",
   "about.planned2": "• Automatic map switch to match in-raid map",
   "about.planned3": "• Pins on map for quests and exits"
 }
