@@ -1,0 +1,15 @@
+{
+  "error.generic": "An error occurred",
+  "error.file_not_found": "File not found",
+  "error.invalid_path": "Invalid file path",
+  "error.quest_data_missing": "Quest data file is missing",
+  "error.item_data_missing": "Item data file is missing",
+  "error.load_translation": "Error loading translation file",
+  "error.save_settings": "Error saving settings",
+  "error.invalid_hotkey": "Invalid hotkey binding",
+  "error.directory_not_found": "Directory not found",
+  "warning.unsaved_changes": "You have unsaved changes",
+  "success.settings_saved": "Settings saved successfully",
+  "success.hotkey_bound": "Hotkey bound successfully",
+  "success.hotkey_cleared": "Hotkey cleared successfully"
+}

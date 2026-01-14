@@ -1,0 +1,15 @@
+{
+  "title": "Application Settings",
+  "language": "Language",
+  "english": "English",
+  "russian": "Russian",
+  "transparency": "Transparency",
+  "hotkey.toggle_map": "Toggle Map Overlay",
+  "hotkey.toggle_quests": "Toggle Pinned Quests",
+  "hotkey.toggle_items": "Toggle Pinned Items",
+  "path.quest_data": "Quest Data Path",
+  "path.item_data": "Item Data Path",
+  "path.user_data": "User Data Path",
+  "instruction.hotkeys": "Instructions:",
+  "not_bound": "[Not Bound]"
+}

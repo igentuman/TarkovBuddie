@@ -12,34 +12,34 @@
             <TextBlock Text="TARKIT" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="#1A1A1A"/>
             
             <!-- Version -->
-            <TextBlock Text="v1.0-beta" FontSize="14" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#666666"/>
+            <TextBlock Text="{local:Translate ui, title.main}" FontSize="14" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#666666"/>
             
             <!-- Description -->
-            <TextBlock Text="An offline companion tool for Escape from Tarkov" FontSize="13" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="#333333" TextAlignment="Center"/>
-            <TextBlock Text="Provides map overlays, quest tracking, and item management" FontSize="12" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="#666666" TextAlignment="Center"/>
+            <TextBlock Text="{local:Translate ui, about.description}" FontSize="13" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="#333333" TextAlignment="Center"/>
+            <TextBlock Text="{local:Translate ui, about.subtext}" FontSize="12" HorizontalAlignment="Center" Margin="0,0,0,10" Foreground="#666666" TextAlignment="Center"/>
             
             <!-- Separator -->
             <Border Height="1" Background="#E0E0E0" Margin="0,0,0,10"/>
             
             <!-- Features -->
-            <TextBlock Text="Features:" FontSize="13" FontWeight="Bold" Margin="0,0,0,5" Foreground="#1A1A1A"/>
+            <TextBlock Text="{local:Translate ui, section.features}" FontSize="13" FontWeight="Bold" Margin="0,0,0,5" Foreground="#1A1A1A"/>
             <StackPanel Margin="20,0,0,20">
-                <TextBlock Text="• Interactive map viewer with zoom and pan controls" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Track trader and storyline quests" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Manage items and track quantities" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Configurable hotkeys for quick access" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Transparent overlay windows for in-game reference" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.feature1}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.feature2}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.feature3}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.feature4}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.feature5}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
             </StackPanel>
             
             <!-- Separator -->
             <Border Height="1" Background="#E0E0E0" Margin="0,0,0,5"/>
             
             <!-- Planned Features -->
-            <TextBlock Text="Planned Features:" FontSize="13" FontWeight="Bold" Margin="0,0,0,10" Foreground="#1A1A1A"/>
+            <TextBlock Text="{local:Translate ui, section.planned_features}" FontSize="13" FontWeight="Bold" Margin="0,0,0,10" Foreground="#1A1A1A"/>
             <StackPanel Margin="20,0,0,10">
-                <TextBlock Text="• Russian localization" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Automatic map switch to match in-raid map" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
-                <TextBlock Text="• Pins on map for quests and exits" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.planned1}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.planned2}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
+                <TextBlock Text="{local:Translate ui, about.planned3}" FontSize="11" Margin="0,0,0,5" Foreground="#333333"/>
             </StackPanel>
             
             <!-- Separator -->

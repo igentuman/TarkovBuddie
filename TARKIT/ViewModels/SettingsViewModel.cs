@@ -29,6 +29,7 @@ public class SettingsViewModel : ViewModelBase
             if (SetProperty(ref _selectedLanguage, value))
             {
                 _settingsService.SetLanguage(value);
+                LocalizationService.Instance.CurrentLanguage = value;
             }
         }
     }

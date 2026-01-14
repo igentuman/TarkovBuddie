@@ -1,0 +1,15 @@
+{
+  "error.generic": "Произошла ошибка",
+  "error.file_not_found": "Файл не найден",
+  "error.invalid_path": "Неверный путь к файлу",
+  "error.quest_data_missing": "Файл данных квестов отсутствует",
+  "error.item_data_missing": "Файл данных предметов отсутствует",
+  "error.load_translation": "Ошибка загрузки файла перевода",
+  "error.save_settings": "Ошибка сохранения настроек",
+  "error.invalid_hotkey": "Неверная привязка горячей клавиши",
+  "error.directory_not_found": "Директория не найдена",
+  "warning.unsaved_changes": "У вас есть несохраненные изменения",
+  "success.settings_saved": "Настройки успешно сохранены",
+  "success.hotkey_bound": "Горячая клавиша успешно привязана",
+  "success.hotkey_cleared": "Горячая клавиша успешно удалена"
+}

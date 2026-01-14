@@ -6,5 +6,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <views:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <views:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <views:StringToImageConverter x:Key="StringToImageConverter"/>
     </Application.Resources>
 </Application>

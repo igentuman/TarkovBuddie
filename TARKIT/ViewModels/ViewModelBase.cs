@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using TARKIT.Services;
 
 namespace TARKIT.ViewModels;
 
@@ -20,5 +21,10 @@ public class ViewModelBase : INotifyPropertyChanged
         field = value;
         OnPropertyChanged(propertyName);
         return true;
+    }
+
+    protected string T(string category, string key, string? fallback = null)
+    {
+        return LocalizationService.Instance.Translate(category, key, fallback);
     }
 }

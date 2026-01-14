@@ -10,11 +10,14 @@
     <Grid Margin="10" Focusable="True">
         <TabControl>
             <!-- Hotkeys Tab -->
-            <TabItem Header="Hotkeys" Padding="5">
+            <TabItem Padding="5">
+                <TabItem.Header>
+                    <TextBlock Text="{local:Translate ui, section.hotkeys}"/>
+                </TabItem.Header>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel Margin="10">
-                        <TextBlock Text="Hotkey Configuration" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
-                        <TextBlock Text="Hotkeys require at least one modifier key (Ctrl, Alt, Shift, or Win)" FontSize="11" Foreground="#666666" Margin="0,0,0,15"/>
+                        <TextBlock Text="{local:Translate ui, label.hotkey_config}" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
+                        <TextBlock Text="{local:Translate ui, message.hotkey_requirement}" FontSize="11" Foreground="#666666" Margin="0,0,0,15"/>
                         
                         <ItemsControl ItemsSource="{Binding HotKeyDisplays}">
                             <ItemsControl.ItemTemplate>
@@ -29,8 +32,8 @@
                                             </Grid.ColumnDefinitions>
                                             <TextBlock Text="{Binding Action}" VerticalAlignment="Center" FontWeight="Medium"/>
                                             <TextBox Grid.Column="1" Text="{Binding KeyString}" IsReadOnly="True" Margin="15,0,0,0" Padding="8" Background="#F5F5F5" BorderBrush="#CCCCCC"/>
-                                            <Button Grid.Column="2" Content="Bind" Command="{Binding DataContext.BindHotKeyCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" Margin="10,0,5,0" Padding="6"/>
-                                            <Button Grid.Column="3" Content="Clear" Command="{Binding DataContext.ClearHotKeyCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" Margin="5,0,0,0" Padding="6"/>
+                                            <Button Grid.Column="2" Content="{local:Translate ui, button.bind}" Command="{Binding DataContext.BindHotKeyCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" Margin="10,0,5,0" Padding="6"/>
+                                            <Button Grid.Column="3" Content="{local:Translate ui, button.clear}" Command="{Binding DataContext.ClearHotKeyCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" Margin="5,0,0,0" Padding="6"/>
                                         </Grid>
                                     </Border>
                                 </DataTemplate>
@@ -42,40 +45,46 @@
                         <!-- Listening Status -->
                         <Border Visibility="{Binding IsListeningForHotKey, Converter={StaticResource BoolToVisibilityConverter}}" Background="#E3F2FD" Padding="10" Margin="0,0,0,10" BorderThickness="1" BorderBrush="#B3E5FC">
                             <StackPanel>
-                                <TextBlock Text="🎵 Listening for hotkey..." FontSize="12" FontWeight="Bold" Foreground="#0078D4" Margin="0,0,0,5"/>
-                                <TextBlock Text="Press your desired key combination (e.g., Ctrl+D, Alt+Q, Shift+F1)" FontSize="11" Foreground="#0078D4"/>
+                                <TextBlock Text="{local:Translate ui, message.listening_for_hotkey}" FontSize="12" FontWeight="Bold" Foreground="#0078D4" Margin="0,0,0,5"/>
+                                <TextBlock Text="{local:Translate ui, message.press_key_combination}" FontSize="11" Foreground="#0078D4"/>
                             </StackPanel>
                         </Border>
                         
                         <!-- Instructions -->
                         <StackPanel>
-                            <TextBlock Text="Instructions:" FontSize="11" FontWeight="Bold" Margin="0,0,0,5"/>
-                            <TextBlock Text="1. Click 'Bind' to start listening for a hotkey" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
-                            <TextBlock Text="2. Press a key combination with at least one modifier (Ctrl, Alt, Shift, Win)" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
-                            <TextBlock Text="3. The hotkey will be saved and displayed" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
-                            <TextBlock Text="4. Click 'Clear' to remove a hotkey binding" FontSize="10" Foreground="#666666"/>
+                            <TextBlock Text="{local:Translate ui, instruction.step1}" FontSize="11" FontWeight="Bold" Margin="0,0,0,5"/>
+                            <TextBlock Text="{local:Translate ui, instruction.step1}" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
+                            <TextBlock Text="{local:Translate ui, instruction.step2}" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
+                            <TextBlock Text="{local:Translate ui, instruction.step3}" FontSize="10" Foreground="#666666" Margin="0,0,0,3"/>
+                            <TextBlock Text="{local:Translate ui, instruction.step4}" FontSize="10" Foreground="#666666"/>
                         </StackPanel>
                     </StackPanel>
                 </ScrollViewer>
             </TabItem>
 
             <!-- Language Tab -->
-            <TabItem Header="Language" Padding="5">
+            <TabItem Padding="5">
+                <TabItem.Header>
+                    <TextBlock Text="{local:Translate ui, section.language}"/>
+                </TabItem.Header>
                 <StackPanel Margin="10" VerticalAlignment="Top">
-                    <TextBlock Text="Language Settings (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
+                    <TextBlock Text="{local:Translate ui, message.language_settings}" FontSize="14" FontWeight="Bold" Margin="0,0,0,10"/>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                        <TextBlock Text="Select Language:" VerticalAlignment="Center" Margin="0,0,10,0" Width="120"/>
+                        <TextBlock Text="{local:Translate ui, label.language}" VerticalAlignment="Center" Margin="0,0,10,0" Width="120"/>
                         <ComboBox ItemsSource="{Binding AvailableLanguages}" SelectedItem="{Binding SelectedLanguage}" Width="150" Padding="5"/>
                     </StackPanel>
-                    <TextBlock Text="Application UI will update to the selected language" FontSize="11" Foreground="#666666"/>
+                    <TextBlock Text="{local:Translate ui, message.language_update}" FontSize="11" Foreground="#666666"/>
                 </StackPanel>
             </TabItem>
 
             <!-- Overlay Tab -->
-            <TabItem Header="Overlay" Padding="5">
+            <TabItem Padding="5">
+                <TabItem.Header>
+                    <TextBlock Text="{local:Translate ui, section.overlay}"/>
+                </TabItem.Header>
                 <StackPanel Margin="10" VerticalAlignment="Top">
-                    <TextBlock Text="Overlay Settings (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
-                    <TextBlock Text="Overlay Transparency:" Margin="0,0,0,5"/>
+                    <TextBlock Text="{local:Translate ui, message.overlay_settings}" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
+                    <TextBlock Text="{local:Translate ui, label.overlay_transparency}" Margin="0,0,0,5"/>
                     <Grid Margin="0,0,0,10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -87,53 +96,56 @@
                             <TextBlock Text="%"/>
                         </StackPanel>
                     </Grid>
-                    <TextBlock Text="Lower values make the overlay more transparent" FontSize="11" Foreground="#666666"/>
+                    <TextBlock Text="{local:Translate ui, message.transparency_info}" FontSize="11" Foreground="#666666"/>
                 </StackPanel>
             </TabItem>
 
             <!-- File Paths Tab -->
-            <TabItem Header="File Paths" Padding="5">
+            <TabItem Padding="5">
+                <TabItem.Header>
+                    <TextBlock Text="{local:Translate ui, section.file_paths}"/>
+                </TabItem.Header>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel Margin="10">
-                        <TextBlock Text="Data File Paths (WIP)" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
+                        <TextBlock Text="{local:Translate ui, message.file_paths}" FontSize="14" FontWeight="Bold" Margin="0,0,0,15"/>
                         
                         <!-- Quest Data Path -->
-                        <TextBlock Text="Quest Data Directory:" Margin="0,0,0,5"/>
+                        <TextBlock Text="{local:Translate ui, label.quest_data_path}" Margin="0,0,0,5"/>
                         <Grid Margin="0,0,0,15">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="80"/>
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0" Text="{Binding QuestDataPath}" Padding="5" IsReadOnly="False"/>
-                            <Button Grid.Column="1" Content="Browse" Command="{Binding BrowseQuestDataCommand}" Margin="10,0,0,0" Padding="5"/>
+                            <Button Grid.Column="1" Content="{local:Translate ui, button.browse}" Command="{Binding BrowseQuestDataCommand}" Margin="10,0,0,0" Padding="5"/>
                         </Grid>
 
                         <!-- Item Data Path -->
-                        <TextBlock Text="Item Data Directory:" Margin="0,0,0,5"/>
+                        <TextBlock Text="{local:Translate ui, label.item_data_path}" Margin="0,0,0,5"/>
                         <Grid Margin="0,0,0,15">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="80"/>
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0" Text="{Binding ItemDataPath}" Padding="5" IsReadOnly="False"/>
-                            <Button Grid.Column="1" Content="Browse" Command="{Binding BrowseItemDataCommand}" Margin="10,0,0,0" Padding="5"/>
+                            <Button Grid.Column="1" Content="{local:Translate ui, button.browse}" Command="{Binding BrowseItemDataCommand}" Margin="10,0,0,0" Padding="5"/>
                         </Grid>
 
                         <!-- User Data Path -->
-                        <TextBlock Text="User Data Directory:" Margin="0,0,0,5"/>
+                        <TextBlock Text="{local:Translate ui, label.user_data_path}" Margin="0,0,0,5"/>
                         <Grid Margin="0,0,0,15">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="80"/>
                             </Grid.ColumnDefinitions>
                             <TextBox Grid.Column="0" Text="{Binding UserDataPath}" Padding="5" IsReadOnly="False"/>
-                            <Button Grid.Column="1" Content="Browse" Command="{Binding BrowseUserDataCommand}" Margin="10,0,0,0" Padding="5"/>
+                            <Button Grid.Column="1" Content="{local:Translate ui, button.browse}" Command="{Binding BrowseUserDataCommand}" Margin="10,0,0,0" Padding="5"/>
                         </Grid>
 
                         <Border BorderThickness="0,1,0,0" BorderBrush="#CCCCCC" Margin="0,10,0,10"/>
-                        <TextBlock Text="Leave paths empty to use default locations" FontSize="11" Foreground="#666666" Margin="0,0,0,20"/>
+                        <TextBlock Text="{local:Translate ui, message.leave_paths_empty}" FontSize="11" Foreground="#666666" Margin="0,0,0,20"/>
                         
-                        <Button Content="Save Settings" Command="{Binding SaveSettingsCommand}" Width="120" Padding="5"/>
+                        <Button Content="{local:Translate ui, button.save}" Command="{Binding SaveSettingsCommand}" Width="120" Padding="5"/>
                     </StackPanel>
                 </ScrollViewer>
             </TabItem>

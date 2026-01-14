@@ -1,0 +1,15 @@
+{
+  "title": "Параметры приложения",
+  "language": "Язык",
+  "english": "Английский",
+  "russian": "Русский",
+  "transparency": "Прозрачность",
+  "hotkey.toggle_map": "Переключить оверлей карты",
+  "hotkey.toggle_quests": "Переключить закрепленные квесты",
+  "hotkey.toggle_items": "Переключить закрепленные предметы",
+  "path.quest_data": "Путь к данным квестов",
+  "path.item_data": "Путь к данным предметов",
+  "path.user_data": "Путь к пользовательским данным",
+  "instruction.hotkeys": "Инструкции:",
+  "not_bound": "[Не привязано]"
+}

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TARKIT"
         xmlns:views="clr-namespace:TARKIT.Views"
         mc:Ignorable="d"
-        Title="TARKIT | v1.0-beta" Height="800" Width="1440">
+        Height="800" Width="1440">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -16,35 +16,50 @@
         <!-- Map Selector -->
         <Border Grid.Row="0" Background="#F5F5F5" BorderThickness="0,0,0,1" BorderBrush="#CCCCCC" Padding="10">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                <TextBlock Text="Select Map:" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Medium"/>
+                <TextBlock Text="{views:Translate ui, label.select_map}" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Medium"/>
                 <ComboBox x:Name="MapSelector" 
                           ItemsSource="{Binding MapViewModel.AvailableMaps}"
                           SelectedItem="{Binding MapViewModel.SelectedMap}"
                           Width="150" 
                           Padding="5"/>
-                <TextBlock Margin="20,0,0,0" VerticalAlignment="Center" FontSize="11" Foreground="#666666">
-                    <Run Text="Press "/>
-                    <Run Text="{Binding MapOverlayHotKeyDisplay, Mode=OneWay}" Foreground="#0078D4" FontWeight="Bold"/>
-                    <Run Text=" to toggle overlay"/>
-                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{views:Translate ui, label.press}" Foreground="#666666" FontSize="11"/>
+                    <TextBlock Text="{Binding MapOverlayHotKeyDisplay, Mode=OneWay}" Foreground="#0078D4" FontWeight="Bold" Margin="5,0"/>
+                    <TextBlock Text="{views:Translate ui, label.to_toggle_overlay}" Foreground="#666666" FontSize="11"/>
+                </StackPanel>
             </StackPanel>
         </Border>
 
         <!-- Tab Control -->
         <TabControl Grid.Row="1">
-            <TabItem Header="Map">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="{views:Translate ui, tab.map}"/>
+                </TabItem.Header>
                 <views:MapView DataContext="{Binding MapViewModel}" Padding="10"/>
             </TabItem>
-            <TabItem Header="Quest Tracker">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="{views:Translate ui, tab.quests}"/>
+                </TabItem.Header>
                 <views:QuestTrackerView DataContext="{Binding QuestTrackerViewModel}"/>
             </TabItem>
-            <TabItem Header="Items Tracker">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="{views:Translate ui, tab.items}"/>
+                </TabItem.Header>
                 <views:ItemsTrackerView DataContext="{Binding ItemsTrackerViewModel}"/>
             </TabItem>
-            <TabItem Header="Settings">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="{views:Translate ui, tab.settings}"/>
+                </TabItem.Header>
                 <views:SettingsView/>
             </TabItem>
-            <TabItem Header="About">
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="{views:Translate ui, tab.about}"/>
+                </TabItem.Header>
                 <views:AboutView/>
             </TabItem>
         </TabControl>

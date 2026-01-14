@@ -20,6 +20,16 @@ public partial class MainWindow : Window
         InitializeComponent();
         _viewModel = new MainWindowViewModel();
         DataContext = _viewModel;
+        
+        Title = LocalizationService.Instance.Translate("ui", "title.main");
+        
+        LocalizationService.Instance.PropertyChanged += (s, e) =>
+        {
+            if (e.PropertyName == "CurrentLanguage")
+            {
+                Title = LocalizationService.Instance.Translate("ui", "title.main");
+            }
+        };
     }
 
     protected override void OnSourceInitialized(EventArgs e)
